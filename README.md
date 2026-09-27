@@ -1,6 +1,6 @@
 # Trails of Cold Steel VR — Releases
 
-Private staging repository for official binary releases by Marco / Petonexus.
+Private staging repository for official binary releases by petonexus.
 No release is available yet.
 
 When a build is ready for testers, the release may contain a validated mod package, its SHA-256 checksum, installation instructions, release notes, and required third-party license notices. The package must exclude game assets and saves.
