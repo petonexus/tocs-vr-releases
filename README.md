@@ -1,10 +1,34 @@
-# Trails of Cold Steel VR — Releases
+# Trails of Cold Steel VR
 
-Private staging repository for official binary releases by petonexus.
-No release is available yet.
+Native OpenXR VR conversion for the PC version of
+*The Legend of Heroes: Trails of Cold Steel*.
 
-When a build is ready for testers, the release may contain a validated mod package, its SHA-256 checksum, installation instructions, release notes, and required third-party license notices. The package must exclude game assets and saves.
+## Features
 
-Development source, reverse-engineering notes, offsets, internal tools, diagnostic logs, and test captures stay in the private development repositories. This repository has its own history; it is not a fork or mirror of a development repository.
+- Native stereo rendering
+- 6DoF head tracking
+- First-person exploration
+- Tracked VR hands
+- VR-adapted exploration UI
+- VR-adapted battle UI
+- Original third-person battle cinematography
+- VR cutscene presentation
+- Quest 3 / Virtual Desktop / VDXR support
 
-While this repository is private, only accounts with repository access can download its releases. Public distribution will use a separately reviewed publication decision.
+**Current status: ALPHA.** No binary release has been published yet.
+
+This private repository stages official binary releases by Marco / Petonexus.
+Each release will have a versioned mod ZIP, a SHA-256 checksum, installation
+instructions, release notes, and known issues. The ZIP contains the combined
+SenPatcher/VR loader, the Khronos OpenXR loader, configuration, a reversible
+installer, and the applicable third-party license texts. A separate
+SenPatcher download is not required.
+
+Development source, reverse-engineering notes, offsets, internal tools,
+diagnostic logs, game assets, and saves are not distributed here. The original
+VR mod portions are © 2026 Marco Antônio; third-party components retain their
+own licenses. See `tocs-vr/LICENSE.txt` and `tocs-vr/THIRD_PARTY_NOTICES.txt`
+inside a future release ZIP.
+
+While this repository is private, its releases are available only to accounts
+with repository access. Public distribution requires a separate decision.
