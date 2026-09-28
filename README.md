@@ -15,6 +15,7 @@ The Legend of Heroes: Trails of Cold Steel.
 - Original third-person battle cinematography
 - VR cutscene presentation
 - OpenXR support
+- Quest 3 / Virtual Desktop / VDXR support
 
 ## Downloads
 
@@ -40,7 +41,8 @@ endorsed by Nihon Falcom.
 
 The Legend of Heroes: Trails of Cold Steel and all related intellectual
 property belong to their respective owners.
-- Quest 3 / Virtual Desktop / VDXR support
+
+## Licenses
 
 Each release will have a versioned mod ZIP, a SHA-256 checksum, installation
 instructions, release notes, and known issues. The ZIP contains the combined
@@ -48,6 +50,8 @@ SenPatcher/VR loader, the Khronos OpenXR loader, configuration, a reversible
 installer, and the applicable third-party license texts. A separate
 SenPatcher download is not required.
 
-The original VR mod portions are © 2026 petonexus; third-party components retain their
-own licenses. See `tocs-vr/LICENSE.txt` and `tocs-vr/THIRD_PARTY_NOTICES.txt`
-inside a future release ZIP.
+The original VR mod portions are © 2026 petonexus; third-party components retain
+their own licenses. See [LICENSE.txt](tocs-vr/LICENSE.txt) and
+[THIRD_PARTY_NOTICES.txt](tocs-vr/THIRD_PARTY_NOTICES.txt). Future release ZIPs
+will include these files and the applicable third-party license texts under
+`tocs-vr/licenses/`.

@@ -1,0 +1,21 @@
+Trails of Cold Steel VR - Third-Party Notices
+
+The mod's DINPUT8.dll includes the SenPatcher CS1 loader from the Petonexus
+fork, with the original VR mod extension. The separate OpenXR loader is built
+from the Khronos OpenXR-SDK. Their licenses remain in force independently of
+the license for petonexus-authored VR code.
+
+Component                         License                    Text in release ZIP
+SenPatcher CS1 loader             MIT                        licenses/SenPatcher-MIT.txt
+HyoutaUtils                       MIT                        licenses/HyoutaUtils-MIT.txt
+LZ4                               BSD 2-Clause               licenses/LZ4-BSD-2-Clause.txt
+Zstandard                         BSD 3-Clause               licenses/Zstd-BSD-3-Clause.txt
+RapidJSON                         MIT and bundled notices    licenses/RapidJSON-MIT.txt
+Khronos OpenXR loader             Apache-2.0 OR MIT          licenses/OpenXR-Apache-2.0.txt
+JsonCpp (in OpenXR loader)        MIT or public domain      licenses/JsonCpp-MIT.txt
+
+The OpenXR loader is distributed under the Apache-2.0 option of its dual
+license. SenPatcher also incorporates public-domain LZMA SDK code, as noted
+in its original license file. Release ZIPs include copies of the applicable
+license files with their upstream copyright and attribution notices. No game
+assets are included in the mod package.
