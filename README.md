@@ -3,12 +3,6 @@
 A fan-made native OpenXR VR mod for the PC version of
 The Legend of Heroes: Trails of Cold Steel.
 
-## Support Development
-
-This mod is being developed independently in my spare time.
-If you'd like to support continued development, help a dev who like TRAILS:
-
-☕ Ko-fi: [[LINK]](https://ko-fi.com/petonexus)
 
 ## Features
 
@@ -33,6 +27,9 @@ Early Alpha Preview:
 [[YouTube link]](https://youtu.be/IXdkOXGHeAE)
 
 ## Support Development
+
+This mod is being developed independently in my spare time.
+If you'd like to support continued development, help a dev who like TRAILS:
 
 ☕ Ko-fi: [[LINK]](https://ko-fi.com/petonexus)
 
