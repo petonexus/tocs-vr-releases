@@ -30,9 +30,12 @@ Early Alpha Preview:
 ## Support Development
 
 This mod is being developed independently in my spare time.
-If you'd like to support continued development, help a dev who like TRAILS:
+If you'd like to support continued development, you can donate here:
 
-☕ Ko-fi: [[LINK]](https://ko-fi.com/petonexus)
+☕ Ko-fi: [Support on Ko-fi](https://ko-fi.com/petonexus)
+
+If donations provide enough support, I'd love to bring VR to
+*Trails of Cold Steel II*, *III*, and *IV* after this mod.
 
 ## Disclaimer
 
