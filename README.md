@@ -1,7 +1,14 @@
 # Trails of Cold Steel VR
 
-Native OpenXR VR conversion for the PC version of
-*The Legend of Heroes: Trails of Cold Steel*.
+A fan-made native OpenXR VR mod for the PC version of
+The Legend of Heroes: Trails of Cold Steel.
+
+## Support Development
+
+This mod is being developed independently in my spare time.
+If you'd like to support continued development, help a dev who like TRAILS:
+
+☕ Ko-fi: [[LINK]](https://ko-fi.com/petonexus)
 
 ## Features
 
@@ -13,22 +20,37 @@ Native OpenXR VR conversion for the PC version of
 - VR-adapted battle UI
 - Original third-person battle cinematography
 - VR cutscene presentation
+- OpenXR support
+
+## Downloads
+
+No public builds are available yet.
+Official releases will be published here through GitHub Releases.
+
+## Videos
+
+Early Alpha Preview:
+[YouTube link]
+
+## Support Development
+
+☕ Ko-fi: [[LINK]](https://ko-fi.com/petonexus)
+
+## Disclaimer
+
+This is an unofficial fan-made project and is not affiliated with or
+endorsed by Nihon Falcom.
+
+The Legend of Heroes: Trails of Cold Steel and all related intellectual
+property belong to their respective owners.
 - Quest 3 / Virtual Desktop / VDXR support
 
-**Current status: ALPHA.** No binary release has been published yet.
-
-This private repository stages official binary releases by Marco / Petonexus.
 Each release will have a versioned mod ZIP, a SHA-256 checksum, installation
 instructions, release notes, and known issues. The ZIP contains the combined
 SenPatcher/VR loader, the Khronos OpenXR loader, configuration, a reversible
 installer, and the applicable third-party license texts. A separate
 SenPatcher download is not required.
 
-Development source, reverse-engineering notes, offsets, internal tools,
-diagnostic logs, game assets, and saves are not distributed here. The original
-VR mod portions are © 2026 Marco Antônio; third-party components retain their
+The original VR mod portions are © 2026 petonexus; third-party components retain their
 own licenses. See `tocs-vr/LICENSE.txt` and `tocs-vr/THIRD_PARTY_NOTICES.txt`
 inside a future release ZIP.
-
-While this repository is private, its releases are available only to accounts
-with repository access. Public distribution requires a separate decision.
