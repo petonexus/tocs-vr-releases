@@ -32,7 +32,7 @@ Early Alpha Preview:
 This mod is being developed independently in my spare time.
 If you'd like to support continued development, you can donate here:
 
-☕ Ko-fi: [Support on Ko-fi](https://ko-fi.com/petonexus)
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1M127SS9U)
 
 If donations provide enough support, I'd love to bring VR to
 *Trails of Cold Steel II*, *III*, and *IV* after this mod.
