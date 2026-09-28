@@ -30,7 +30,7 @@ Official releases will be published here through GitHub Releases.
 ## Videos
 
 Early Alpha Preview:
-[YouTube link]
+[[YouTube link]](https://youtu.be/IXdkOXGHeAE)
 
 ## Support Development
 
