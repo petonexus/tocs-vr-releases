@@ -13,7 +13,7 @@
 - Play: connect Virtual Desktop, launch from Steam and load a save. VR starts in the field or battle.
 - Controls: left stick to move; A/B to confirm/back. Hold the right Meta button to recenter.
 
-[Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Preview video](https://youtu.be/IXdkOXGHeAE) - [Support on Ko-fi](https://ko-fi.com/petonexus)
+[Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Gameplay showcase](https://youtu.be/E8FdEB3rqRY) - [Support on Ko-fi](https://ko-fi.com/petonexus)
 
 ## What works today
 
@@ -147,7 +147,7 @@ To attach a log: close the game, open `config\defaults.json` in a text editor, c
 
 ## Videos
 
-Early Alpha Preview: [YouTube](https://youtu.be/IXdkOXGHeAE)
+[Watch the pre-alpha gameplay showcase](https://youtu.be/E8FdEB3rqRY): exploration, battles, Blade and the opening of the game.
 
 ## Support Development
 
