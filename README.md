@@ -26,9 +26,14 @@
 
 ## Downloads
 
-Download **tocs-vr-0.1.0-alpha.1-5a961767.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Download **tocs-vr-0.1.0-alpha.2-d17d2c8e.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
 
-SHA-256: `6e0ef5e10c6a273441353591f214d166ec8664ed5a990ea356a5eccfc9d7c758`
+SHA-256: `9d7c9e46d6e3ff546ab1e0b9e250bfaf8c42cd40eddaef4e0bbc580dae58ee54`
+
+**New in 0.1.0-alpha.2**
+
+- Smoother turning with the right stick: much less drag while you turn.
+- 16:9 resolutions such as 1920x1080: story scenes and the battle HUD keep their proportions.
 
 ## Requirements
 
@@ -101,7 +106,8 @@ Nothing else is mapped: the other buttons do nothing in this alpha.
 ## Known issues in this alpha
 
 - **Title screen and Load menu are flat.** VR starts at your first field or battle after loading a save. Until then use the keyboard, mouse or a gamepad on the PC.
-- **Tremor or drag while moving.** Walking and turning can look less smooth than head movement, with some tremor, drag or flicker. This is the first thing planned for V1.1.
+- **Tested at 3440x1440 and 1920x1080.** The mod has been tested with the game at 3440x1440 (21:9) and 1920x1080 (16:9). At 1920x1080 characters look less sharp unless they are close.
+- **Tremor while walking, shaky hands while turning.** Walking can look less smooth than head movement, with some tremor or flicker. Turning with the right stick has much less drag now, but your hands may shake while you turn. Smoothing is the first thing planned for V1.1.
 - **Enemy HP and damage numbers are on the battle HUD.** They float on the HUD panel, not above each enemy, and some may look out of place.
 - **Some battle visual glitches.** A stray CP/EP gauge can appear after some turn bonuses. S-Craft camera cuts may feel abrupt, and some light halos look clipped after pausing.
 - **The game may close by itself.** After some long sessions the game has closed on its own. Save often.
@@ -122,13 +128,13 @@ Nothing else is mapped: the other buttons do nothing in this alpha.
 | Stage | Theme | What it brings |
 |---|---|---|
 | **V1 - this alpha** (Now) | Explore, talk, fight | Stereo exploration, tracked hands and sword; Battles, linked portraits, Link/Swap panels and Touch controls; Dialogue, menus, scenes and results on panels |
-| **V1.1 - fixes after launch** (Next) | Smoother and clearer | Less tremor and drag while moving; S-Craft on a flat panel with the battle around it; Fixes from early feedback and a controls reference in VR |
+| **V1.1 - fixes after launch** (Next) | Smoother and clearer | Less tremor and drag while moving; S-Craft selection on a flat panel with the battle around it; Fixes from early feedback and a controls reference in VR |
 | **V2 wave 1 - comfort and settings** (Planned) | Make it yours | In-VR settings menu that remembers your choices; Snap turn, seated mode, hand swap; Optional third-person exploration camera; Play with a regular gamepad in VR; Other party members as field leader |
 | **V2 wave 2 - battle and controls** (Planned) | Better fights | Choose the battle camera: locked or following; HP and status attached to each enemy; Item done properly; S-Craft polish and results in 3D |
 | **V2 wave 3 - presence and world** (Later) | Be there | Full body, and hands and weapon for each character; Sword trail and attack by gesture; Mini-games, fishing and cards; Positional audio |
 | **V3 - installer** (Later) | One-click install | A proper installer with backups (the ZIP stays available) |
 
-If support allows, Trails of Cold Steel II, III and IV come after this mod. *(Roadmap reviewed 2026-10-06.)*
+If support allows, Trails of Cold Steel II, III and IV come after this mod. *(Roadmap reviewed 2026-10-07.)*
 
 ## Uninstall
 
