@@ -13,27 +13,32 @@
 - Play: connect Virtual Desktop, launch from Steam and load a save. VR starts in the field or battle.
 - Controls: left stick to move; A/B to confirm/back. Hold the right Meta button to recenter.
 
-[Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Gameplay showcase](https://youtu.be/E8FdEB3rqRY) - [Support on Ko-fi](https://ko-fi.com/petonexus)
+[Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) - [Gameplay showcase](https://youtu.be/E8FdEB3rqRY) - [Support on Ko-fi](https://ko-fi.com/petonexus)
 
 ## What works today
 
 - **Real stereo VR.** Stereo views with head tracking: look around and lean into the scene.
-- **First-person exploration.** Explore from Rean's viewpoint with free movement and smooth turning. Y switches the field leader.
-- **Tracked hands and sword.** Tracked hands, the game's katana while holding A, and the native slash effect.
-- **Battles in VR.** The original battle camera with head tracking, a floating HUD and linked portraits. Link, Swap and Link Attack open on a flat panel with the battle around it.
-- **Menus, dialogue and scenes.** Read dialogue, shops and menus on a panel. Story scenes use a 16:9 screen; battle results use the full game screen.
+- **First-person exploration.** Explore in first person with free movement and smooth turning. Y switches the field leader, and the other school leaders get their own hands.
+- **Tracked hands and weapons.** Tracked hands, the leader's own weapon while holding A (Rean, Jusis, Alisa and Emma), and Rean's native slash effect.
+- **Battles in VR.** The original battle camera with head tracking, a floating HUD and linked portraits. Enemy HP and damage float on the enemies. Link, Swap, Link Attack and the S-Break wheel open on a flat panel with the battle around it.
+- **Menus, dialogue and scenes.** Read dialogue, shops and menus on a panel. Story scenes use a 16:9 screen; pause and battle results use a level game screen a little farther away.
+- **VR settings menu.** Click the right stick in the field: turn speed, battle camera (following or locked), S-Craft animation on a flat screen and the panel positions. Your choices are saved.
 - **Field map and HUD.** Left trigger opens the field map. Hold X to show the field HUD.
 
 ## Downloads
 
-Download **tocs-vr-0.1.0-alpha.2-d17d2c8e.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Download **tocs-vr-0.1.0-alpha.3-d1795093.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
 
-SHA-256: `9d7c9e46d6e3ff546ab1e0b9e250bfaf8c42cd40eddaef4e0bbc580dae58ee54`
+SHA-256: `523571ea43a371d9cfd72ed73f536c555b22413466c43a70a1473eafc815c032`
 
-**New in 0.1.0-alpha.2**
+**New in 0.1.0-alpha.3**
 
-- Smoother turning with the right stick: much less drag while you turn.
-- 16:9 resolutions such as 1920x1080: story scenes and the battle HUD keep their proportions.
+- VR settings menu: click the right stick in the field to change turn speed, the battle camera (following or locked), the S-Craft animation on a flat screen and the panel positions. Your choices are saved.
+- The other school leaders get their own hands, and Jusis, Alisa and Emma hold their weapon while you hold A.
+- Enemy HP, damage and the target arrow float on the enemies; your party's numbers stay on the HUD panel.
+- The S-Break wheel opens on a flat panel; pause and battle results are level and a little farther away.
+- Sideways walking sends depth to Virtual Desktop to reduce judder (a first step; the effect is subtle).
+- Fixes: Alisa's hands, a texture strip on Jusis's and Emma's arm, the party HP bar on the HUD panel and Emma's glasses.
 
 ## Requirements
 
@@ -69,12 +74,13 @@ Right hand is the dominant hand. Everything below has been used by the author in
 | **Head** | Look around and lean in. |
 | **Left stick** | Walk and run (push further to go faster). |
 | **Right stick (left / right)** | Turn. |
-| **A** | Confirm, talk, interact, attack. The katana is in your hand only while you hold A. |
+| **A** | Confirm, talk, interact, attack. The leader's weapon is in your hand only while you hold A. |
 | **B** | Cancel / back (also closes the map). |
 | **Left menu button** | Camp menu. |
 | **Left trigger** | Field map. |
 | **X (hold, left)** | Show the field HUD while held. |
 | **Y (click, left)** | Switch the field leader. |
+| **Right stick (click)** | VR settings menu: left stick moves and changes values, A selects, B closes. Saved. |
 
 #### Battle
 
@@ -106,13 +112,13 @@ Nothing else is mapped: the other buttons do nothing in this alpha.
 ## Known issues in this alpha
 
 - **Title screen and Load menu are flat.** VR starts at your first field or battle after loading a save. Until then use the keyboard, mouse or a gamepad on the PC.
-- **Tested at 3440x1440 and 1920x1080.** The mod has been tested with the game at 3440x1440 (21:9) and 1920x1080 (16:9). At 1920x1080 characters look less sharp unless they are close.
-- **Tremor while walking, shaky hands while turning.** Walking can look less smooth than head movement, with some tremor or flicker. Turning with the right stick has much less drag now, but your hands may shake while you turn. Smoothing is the first thing planned for V1.1.
-- **Enemy HP and damage numbers are on the battle HUD.** They float on the HUD panel, not above each enemy, and some may look out of place.
+- **Tested at 3440x1440 and 1920x1080.** At 1920x1080 (16:9) characters look less sharp than at 3440x1440 (21:9) unless they are close.
+- **Tremor while walking, shaky hands while turning.** Walking can show some tremor or flicker, and your hands may shake while you turn with the right stick. Smoothing is the first thing planned for V1.1.
+- **Status icons are on the battle HUD.** Enemy HP, damage and the target arrow float on the enemies; status icons stay on the HUD panel.
 - **Some battle visual glitches.** A stray CP/EP gauge can appear after some turn bonuses. S-Craft camera cuts may feel abrupt, and some light halos look clipped after pausing.
 - **The game may close by itself.** After some long sessions the game has closed on its own. Save often.
-- **Hands and sword use Rean's setup.** Y can switch the field leader, but character-specific hands and weapons are not adapted yet. Rean is the reference setup.
-- **No settings menu yet.** No in-VR settings, snap turn, seated mode or hand swap.
+- **Weapons are basic.** Only Rean, Jusis, Alisa and Emma show a weapon, some outfits hide hands, and there is no gesture attack or sword trail yet.
+- **The settings menu is basic.** No snap turn, seated mode or hand swap yet. Turning VR off in the menu shows the game on a large flat screen.
 - **Story scenes are on a flat panel.** Cutscenes play on a flat 16:9 panel, mini-games and fishing are not adapted, and there is no positional audio.
 
 ## If something goes wrong
@@ -127,11 +133,11 @@ Nothing else is mapped: the other buttons do nothing in this alpha.
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **V1 - this alpha** (Now) | Explore, talk, fight | Stereo exploration, tracked hands and sword; Battles, linked portraits, Link/Swap panels and Touch controls; Dialogue, menus, scenes and results on panels |
-| **V1.1 - fixes after launch** (Next) | Smoother and clearer | Less tremor and drag while moving; S-Craft selection on a flat panel with the battle around it; Fixes from early feedback and a controls reference in VR |
-| **V2 wave 1 - comfort and settings** (Planned) | Make it yours | In-VR settings menu that remembers your choices; Snap turn, seated mode, hand swap; Optional third-person exploration camera; Play with a regular gamepad in VR; Other party members as field leader |
-| **V2 wave 2 - battle and controls** (Planned) | Better fights | Choose the battle camera: locked or following; HP and status attached to each enemy; Item done properly; S-Craft polish and results in 3D |
-| **V2 wave 3 - presence and world** (Later) | Be there | Full body, and hands and weapon for each character; Sword trail and attack by gesture; Mini-games, fishing and cards; Positional audio |
+| **V1 - this alpha (0.1.0-alpha.3)** (Now) | Explore, talk, fight | Stereo exploration, tracked hands and sword; Battles, linked portraits, Link/Swap panels and Touch controls; Dialogue, menus, scenes and results on panels; In-VR settings menu that remembers your choices; Other school leaders' hands; their weapon while you hold A; Enemy HP and damage on each enemy; S-Break wheel on a flat panel |
+| **V1.1 - fixes after launch** (Next) | Smoother and clearer | Less tremor while walking and steadier hands while turning; Fixes from early feedback and a controls reference in VR |
+| **V2 wave 1 - comfort and settings** (Planned) | Make it yours | More options in the VR settings menu; Snap turn, seated mode, hand swap; Optional third-person exploration camera; Play with a regular gamepad in VR; Fie and the later party members as field leader |
+| **V2 wave 2 - battle and controls** (Planned) | Better fights | Status icons attached to each enemy; Item done properly; S-Craft polish and results in 3D |
+| **V2 wave 3 - presence and world** (Later) | Be there | Full body for each character; Sword trail that follows your swing, and attack by gesture; Mini-games, fishing and cards; Positional audio |
 | **V3 - installer** (Later) | One-click install | A proper installer with backups (the ZIP stays available) |
 
 If support allows, Trails of Cold Steel II, III and IV come after this mod. *(Roadmap reviewed 2026-10-07.)*
