@@ -139,7 +139,7 @@ Other buttons do nothing in this alpha.
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **V1 - this alpha (0.1.0-alpha.4)** (Now) | Explore, talk, fight | Stereo exploration and battles; Bodies, tracked hands and weapons for the school leaders; Dialogue, menus and scenes on panels; In-VR settings menu |
+| **V1 - this alpha** (Now) | Explore, talk, fight | Stereo exploration and battles; Bodies, tracked hands and weapons for the school leaders; Dialogue, menus and scenes on panels; In-VR settings menu |
 | **V1.1 - fixes after launch** (Next) | Smoother and clearer | Less tremor while walking, steadier hands while turning; Fixes from feedback and a controls reference in VR |
 | **V2 - comfort, battle and presence** (Planned) | Make it yours | Seated mode, hand swap and a regular gamepad; Fie and the later party members as field leader; Battle polish: Item, S-Craft and results in 3D; Sword trail, mini-games and positional audio |
 | **V3 - installer** (Later) | One-click install | A proper installer with backups (the ZIP stays available) |
