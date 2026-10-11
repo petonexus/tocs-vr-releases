@@ -1,13 +1,13 @@
 # Trails of Cold Steel VR
 
-**Same world. A new perspective.** A fan-made VR mod for Trails of Cold Steel on Steam. Explore in first person, fight in stereo and use tracked Touch controllers.
+**Same world. A new perspective.** A fan-made VR mod for Trails of Cold Steel on Steam. Explore in first person, use tracked Touch controllers and fight with views made for VR: a tabletop miniature, a battle panel you place yourself and your arts list on your hand.
 
 > **ALPHA - read this first.** Early alpha. Exploration, dialogue and battles work, with visual glitches and rough movement. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
 **Quick start**
 
-- ALPHA: stereo exploration and battles, with bugs and rough edges.
+- ALPHA: first-person exploration and battles made for VR (a tabletop miniature, a battle panel you place yourself), with bugs and rough edges.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and the x86 Visual C++ runtime.
 - Install: extract the ZIP beside `ed8.exe`. SenPatcher is included.
 - Play: connect Virtual Desktop, launch from Steam and load a save. VR starts in the field or battle.
@@ -17,27 +17,30 @@
 
 ## What works today
 
+- **Tabletop battles.** Watch the fight as a miniature board in front of you. Tilt it, turn it, and the attack, magic and enemy-charge effects turn to face you. Pick it in the VR settings, under Battle view.
+- **A battle panel that is yours.** Grab the battle panel with the trigger and drag it where you want, change its distance and size, and make it follow your head or park it in space. Your choices are saved.
+- **Arts and crafts on your hand.** While the arts and crafts list is open, it can sit on your off hand. Point at a row with your dominant hand, follow the beam, pull the trigger to choose it, and turn the hand palm down to send it back.
 - **First-person exploration.** Stereo VR with head tracking, free movement and smooth or step turning. Look down to see your body.
 - **Hands and weapons.** Rean and the other school leaders up to chapter 3 have their own body, tracked hands and weapon. Swing your arm to attack.
-- **Battles in VR.** The original battle camera with head tracking. Enemy HP and status icons float on the enemies, and the controllers vibrate.
-- **Menus, dialogue and scenes.** Dialogue, shops and menus show on a floating panel. Story scenes play on a 16:9 screen.
+- **Battles in VR.** The original battle camera with head tracking, enemy HP and status icons floating on the enemies, and controllers that vibrate with the game. First-person battle is there too, as an experiment (VR settings, Battle view).
+- **Menus, dialogue and scenes.** Dialogue and shops show on a floating panel. The pause menu opens small on your left wrist when you look at it, or large in front of you, with the world moving behind it. Story scenes play on a 16:9 screen.
 - **VR settings menu.** Click the right stick in the field to change turning, cameras, world size and panel positions. Choices are saved.
 - **Field map and HUD.** Left trigger opens the field map. Hold the right trigger for Quick Navigation, or X for the field HUD.
 
 ## Downloads
 
-Download **tocs-vr-0.1.0-alpha.4-cb85adac.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Download **tocs-vr-0.1.0-alpha.5-0fa3b225.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
 
-SHA-256: `3161baf9ea55ee59c74e068d2323b10670c2869a0abd76adf39e40904d60be27`
+SHA-256: `955138468b5d0e41e23aee39c4d440d0ad94ffdcc1f65f3ed6b752e7a439193c`
 
-**New in 0.1.0-alpha.4**
+**New in 0.1.0-alpha.5**
 
-- Look down to see your body: Rean and the other school leaders have shoulders and arms joined to your hands, and the body turns with you.
-- Weapons: hold the right grip (or A) to hold your leader's weapon and swing your arm to attack. Every school leader up to chapter 3 has their own weapon and attack effects.
-- Your fingers follow the controller (trigger, grip and thumb), Machias' hands show and each leader sees from their own eye height.
-- Battles: the HUD panel follows when you turn away, the floor stays level, status icons sit on each enemy, the controllers vibrate with the game, and an arm swing can confirm your Attack.
-- Menus: point at the VR settings menu with your hand, hold the right trigger for Quick Navigation on a flat screen, and turning VR off or pausing keeps the game's proportions.
-- New VR settings: step turning, a third-person camera and the world size. Doors and loads fade in from black, and the image is less washed-out.
+- Battle panel setup: in battle, click the right stick to open a small panel, grab the battle panel with the trigger of your dominant hand and drag it where you want, change its distance and size with the right stick, press A to park it in space or make it follow your head, X resets it and B closes it. The game ignores your controllers while the panel is open, and your choices are saved.
+- New battle views (VR settings, battle view): the third-person camera stays the default; you can also watch the fight from above as a tabletop miniature that you tilt and turn, with the 2D attack, magic and enemy-charge effects turned to face you, or try first-person battle (experimental) with the leader's weapon in your hand, Emma's included.
+- Battle arts and crafts list: it can sit on your off hand while it is open. Point at a row with your dominant hand (a beam and a small target show where you aim) and pull the trigger to choose it; turn the hand palm down to send it back.
+- Leaders in their alternate outfits, such as Machias in his summer clothes, keep a connected body.
+- The pause menu (left menu button) opens small on your left wrist when you look at your hand and large in front of you when you look ahead, and the world keeps moving behind it.
+- The whole VR settings menu is now in English: turn style, camera, world size and the battle options.
 
 ## Requirements
 
@@ -76,13 +79,13 @@ Right hand is the dominant hand. Controls marked experimental are not confirmed 
 | **A** | Confirm, talk, interact, attack. Hold to show the weapon. |
 | **Right grip (hold)** | Hold the weapon; swing your arm to attack. |
 | **B** | Cancel / back. Also closes the map. |
-| **Left menu button** | Camp menu. |
+| **Left menu button** | Pause (camp) menu. It opens on your left wrist when you look at your hand and in front of you when you look ahead. |
 | **Left trigger** | Field map. |
 | **Right trigger (hold)** | Quick Navigation (fast travel) on a flat screen. |
 | **X (hold, left)** | Show the field HUD. |
 | **Y (click, left)** | Switch the field leader. |
 | **Right stick (click)** | VR settings menu. Left stick changes values, A selects, B closes. |
-| **Right hand (menu open)** | Point at a row, pull the trigger. *(experimental)* |
+| **Right hand (menu open)** | Point at a row, pull the trigger. Also on the arts and crafts list on your off hand in first-person battle. *(experimental)* |
 
 #### Battle
 
@@ -114,6 +117,8 @@ Other buttons do nothing in this alpha.
 
 ## Known issues in this alpha
 
+- **First-person and miniature battle views are new.** First-person battle is experimental: when you twist your forearm, a leader's wrist and forearm can look thin or bent. In the miniature view, enemy life bars, pointers and damage numbers face the active character instead of you. In first-person battle the arts list beam starts a little above your hand.
+- **The pause menu is new.** On the Order page your body can disappear, and the Equipment page can show the character stretched in front of you. The menu moves between your wrist and the front depending on where you look; a setting to choose one is planned.
 - **Title screen and Load menu are flat.** VR starts at the first field or battle. Until then, use the keyboard or mouse.
 - **Tested at 3440x1440 and 1920x1080.** At 1920x1080, characters look less sharp unless they are close.
 - **Tremor while walking and turning.** Walking can show tremor or flicker, and your hands can shake while you turn. Smoothing comes first in V1.1.
