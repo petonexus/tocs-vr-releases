@@ -19,7 +19,7 @@
 
 - **Tabletop battles.** Watch the fight as a miniature board in front of you. Tilt it, turn it, and the attack, magic and enemy-charge effects turn to face you. Pick it in the VR settings, under Battle view.
 - **A battle panel that is yours.** Grab the battle panel with the trigger and drag it where you want, change its distance and size, and make it follow your head or park it in space. Your choices are saved.
-- **Arts and crafts on your hand.** While the arts and crafts list is open, it can sit on your off hand. Point at a row with your dominant hand, follow the beam, pull the trigger to choose it, and turn the hand palm down to send it back.
+- **Arts and crafts on your hand.** Choose Wrist only in VR settings for the command wheel, target selection and Arts/Crafts list on your left palm in first-person, third-person or miniature battle. Point at a list row with your dominant hand and pull the trigger. Item placement still has a known problem.
 - **First-person exploration.** Stereo VR with head tracking, free movement and smooth or step turning. Look down to see your body.
 - **Hands and weapons.** Rean and the other school leaders up to chapter 3 have their own body, tracked hands and weapon. Swing your arm to attack.
 - **Battles in VR.** The original battle camera with head tracking, enemy HP and status icons floating on the enemies, and controllers that vibrate with the game. First-person battle is there too, as an experiment (VR settings, Battle view).
@@ -29,18 +29,18 @@
 
 ## Downloads
 
-Download **tocs-vr-0.1.0-alpha.5-0fa3b225.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Download **tocs-vr-0.1.0-alpha.6-1cae55c1.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
 
-SHA-256: `955138468b5d0e41e23aee39c4d440d0ad94ffdcc1f65f3ed6b752e7a439193c`
+SHA-256: `29cadc8a1310d149fc1fbf6f979e456c75f90fa98af9f8f9f93295c778ae2175`
 
-**New in 0.1.0-alpha.5**
+**New in 0.1.0-alpha.6**
 
-- Battle panel setup: in battle, click the right stick to open a small panel, grab the battle panel with the trigger of your dominant hand and drag it where you want, change its distance and size with the right stick, press A to park it in space or make it follow your head, X resets it and B closes it. The game ignores your controllers while the panel is open, and your choices are saved.
-- New battle views (VR settings, battle view): the third-person camera stays the default; you can also watch the fight from above as a tabletop miniature that you tilt and turn, with the 2D attack, magic and enemy-charge effects turned to face you, or try first-person battle (experimental) with the leader's weapon in your hand, Emma's included.
-- Battle arts and crafts list: it can sit on your off hand while it is open. Point at a row with your dominant hand (a beam and a small target show where you aim) and pull the trigger to choose it; turn the hand palm down to send it back.
-- Leaders in their alternate outfits, such as Machias in his summer clothes, keep a connected body.
-- The pause menu (left menu button) opens small on your left wrist when you look at your hand and large in front of you when you look ahead, and the world keeps moving behind it.
-- The whole VR settings menu is now in English: turn style, camera, world size and the battle options.
+- Battle commands placement: choose Wrist only in VR settings to keep the command wheel, target selection and Arts/Crafts list on your left palm in first-person, third-person or miniature battle. Your saved camera and placement choices are kept.
+- First-person battle: hold the right grip and swing to confirm a normal Attack with Rean or Jusis. Resting, both grips held, the command wheel and Arts/Crafts do not confirm an Attack this way.
+- The normal Attack direction in first-person battle follows the selected target more reliably, both from a stop and after running.
+- An already-active first-person battle view stays active through the tested S-Break and enemy Craft. Other Arts, Crafts and S-Crafts still need individual checks.
+- First-person battle weapons: Fie's two weapons follow the two hands and disappear when the grips are released; Machias' weapon follows his hand in the tested setup.
+- First-person running and the tested Craft/enemy-action/next-ally sequence received an initial positive comfort check. First-person battle remains experimental.
 
 ## Requirements
 
@@ -85,7 +85,7 @@ Right hand is the dominant hand. Controls marked experimental are not confirmed 
 | **X (hold, left)** | Show the field HUD. |
 | **Y (click, left)** | Switch the field leader. |
 | **Right stick (click)** | VR settings menu. Left stick changes values, A selects, B closes. |
-| **Right hand (menu open)** | Point at a row, pull the trigger. Also on the arts and crafts list on your off hand in first-person battle. *(experimental)* |
+| **Right hand (menu open)** | Point and pull the trigger. Battle Arts/Crafts use Wrist only in VR settings in all three battle views. *(experimental)* |
 
 #### Battle
 
@@ -96,9 +96,9 @@ Right hand is the dominant hand. Controls marked experimental are not confirmed 
 | **A / B** | Confirm / cancel. |
 | **Left trigger (hold)** | S-Craft: hold, push the stick to the S-Craft, press A. |
 | **Right trigger** | Skip the battle animation. |
-| **Arm swing (target pick)** | Confirms the Attack target. *(experimental)* |
+| **Arm swing (target pick)** | First-person normal Attack, Rean/Jusis only: hold right grip, release left grip, then swing. *(experimental)* |
 | **Left grip (hold)** | Link panel: pick a partner with the stick, confirm with A. In a Link Attack, A = Assist. |
-| **Right grip (hold)** | Swap panel: pick a party member with the stick, confirm with A. |
+| **Right grip (hold)** | Swap panel: pick with the stick, confirm with A. First-person Attack uses grip plus swing (above). |
 | **Y (click, left)** | Burst during a Link Attack. *(experimental)* |
 
 #### Menus, dialogue and results
@@ -117,10 +117,11 @@ Other buttons do nothing in this alpha.
 
 ## Known issues in this alpha
 
-- **First-person and miniature battle views are new.** First-person battle is experimental: when you twist your forearm, a leader's wrist and forearm can look thin or bent. In the miniature view, enemy life bars, pointers and damage numbers face the active character instead of you. In first-person battle the arts list beam starts a little above your hand.
-- **The pause menu is new.** On the Order page your body can disappear, and the Equipment page can show the character stretched in front of you. The menu moves between your wrist and the front depending on where you look; a setting to choose one is planned.
+- **Enemy Analysis and Item placement need fixes.** Enemy details can show only the background in the headset, without the model, HP or attributes. Item can stay on the right panel with Wrist only selected. The wrist checks cover wheel, targets and Arts/Crafts.
+- **First-person and miniature battle views are new.** First-person forearms can look thin or bent; the Arts beam starts above the hand. Miniature enemy bars, pointers and damage face the active character. Grip Attack: Rean/Jusis checked; weapons: Fie/Machias checked. Gaius can lack a weapon; Elliot/Laura weapons can stay still.
+- **The pause menu is new.** Order can hide your body; Equipment can show a stretched character. Placement can follow your gaze, stay on your wrist or stay in front; choose it in VR settings.
 - **Title screen and Load menu are flat.** VR starts at the first field or battle. Until then, use the keyboard or mouse.
-- **Tested at 3440x1440 and 1920x1080.** At 1920x1080, characters look less sharp unless they are close.
+- **Tested at 3440x1440 and 1920x1080.** At 1920x1080, characters look less sharp unless they are close. The alpha.6 battle changes still need a fresh 1920x1080 and production logging check.
 - **Tremor while walking and turning.** Walking can show tremor or flicker, and your hands can shake while you turn. Smoothing comes first in V1.1.
 - **Battle visual glitches.** A stray CP/EP gauge after some turn bonuses, abrupt S-Craft camera cuts and clipped light halos after pausing.
 - **The game may close by itself.** This has happened after long sessions. Save often.
@@ -144,7 +145,7 @@ Other buttons do nothing in this alpha.
 | **V2 - comfort, battle and presence** (Planned) | Make it yours | Seated mode, hand swap and a regular gamepad; Fie and the later party members as field leader; Battle polish: Item, S-Craft and results in 3D; Sword trail, mini-games and positional audio |
 | **V3 - installer** (Later) | One-click install | A proper installer with backups (the ZIP stays available) |
 
-If support allows, Trails of Cold Steel II, III and IV come after this mod. *(Roadmap reviewed 2026-10-09.)*
+If support allows, Trails of Cold Steel II, III and IV come after this mod. *(Roadmap reviewed 2026-10-12.)*
 
 ## Uninstall
 
