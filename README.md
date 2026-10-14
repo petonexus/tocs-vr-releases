@@ -29,18 +29,18 @@
 
 ## Downloads
 
-Download **tocs-vr-0.1.0-alpha.6-1cae55c1.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Download **tocs-vr-0.1.0-alpha.7-b90e4acc.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
 
-SHA-256: `29cadc8a1310d149fc1fbf6f979e456c75f90fa98af9f8f9f93295c778ae2175`
+SHA-256: `226309acd335d4e0229c2f705dfa3d63002a85059456665921e06d2929ce1e7f`
 
-**New in 0.1.0-alpha.6**
+**New in 0.1.0-alpha.7**
 
-- Battle commands placement: choose Wrist only in VR settings to keep the command wheel, target selection and Arts/Crafts list on your left palm in first-person, third-person or miniature battle. Your saved camera and placement choices are kept.
-- First-person battle: hold the right grip and swing to confirm a normal Attack with Rean or Jusis. Resting, both grips held, the command wheel and Arts/Crafts do not confirm an Attack this way.
-- The normal Attack direction in first-person battle follows the selected target more reliably, both from a stop and after running.
-- An already-active first-person battle view stays active through the tested S-Break and enemy Craft. Other Arts, Crafts and S-Crafts still need individual checks.
-- First-person battle weapons: Fie's two weapons follow the two hands and disappear when the grips are released; Machias' weapon follows his hand in the tested setup.
-- First-person running and the tested Craft/enemy-action/next-ally sequence received an initial positive comfort check. First-person battle remains experimental.
+- First-person battle: point at the target with your dominant hand and pull the trigger to confirm a normal Attack. Arts and Crafts keep their own selection controls.
+- Arts and Crafts: the pointer shows a beam outside the list and a ring on the row you aim at. The stick takes over when you move it; B cancels while the trigger is held.
+- First-person battle: the right stick turns your view with the existing menu and action controls preserved.
+- Wrist-only commands move out of view during attacks and return when you raise your palm. Your saved panel and camera choices are kept.
+- Rean's forearm keeps its shape and joins the elbow and wrist more consistently in the checked first-person poses.
+- The body in the world stays normal in the checked Order and Orbment screens. The separate Equipment preview still needs work.
 
 ## Requirements
 
@@ -118,10 +118,10 @@ Other buttons do nothing in this alpha.
 ## Known issues in this alpha
 
 - **Enemy Analysis and Item placement need fixes.** Enemy details can show only the background in the headset, without the model, HP or attributes. Item can stay on the right panel with Wrist only selected. The wrist checks cover wheel, targets and Arts/Crafts.
-- **First-person and miniature battle views are new.** First-person forearms can look thin or bent; the Arts beam starts above the hand. Miniature enemy bars, pointers and damage face the active character. Grip Attack: Rean/Jusis checked; weapons: Fie/Machias checked. Gaius can lack a weapon; Elliot/Laura weapons can stay still.
-- **The pause menu is new.** Order can hide your body; Equipment can show a stretched character. Placement can follow your gaze, stay on your wrist or stay in front; choose it in VR settings.
+- **First-person and miniature battle views are new.** Rean's forearm passed three poses; other actors and outfits need checks. The Arts beam can start above the hand. Miniature bars and damage face the active character. Grip Attack: Rean/Jusis checked; weapons: Fie/Machias checked. Gaius can lack a weapon; Elliot/Laura weapons can stay still.
+- **The pause menu is new.** Your character in the world stays normal in Order and Orbment. Equipment's separate preview still needs work. Choose wrist, gaze-following or fixed-front placement in VR settings.
 - **Title screen and Load menu are flat.** VR starts at the first field or battle. Until then, use the keyboard or mouse.
-- **Tested at 3440x1440 and 1920x1080.** At 1920x1080, characters look less sharp unless they are close. The alpha.6 battle changes still need a fresh 1920x1080 and production logging check.
+- **Tested at 3440x1440 and 1920x1080.** At 1920x1080, characters look less sharp unless they are close. The latest battle changes were checked at 3440x1440; their 1920x1080 coverage remains partial.
 - **Tremor while walking and turning.** Walking can show tremor or flicker, and your hands can shake while you turn. Smoothing comes first in V1.1.
 - **Battle visual glitches.** A stray CP/EP gauge after some turn bonuses, abrupt S-Craft camera cuts and clipped light halos after pausing.
 - **The game may close by itself.** This has happened after long sessions. Save often.
