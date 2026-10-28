@@ -1,46 +1,47 @@
 # Trails of Cold Steel VR
 
-**Same world. A new perspective.** A fan-made VR mod for Trails of Cold Steel on Steam. Explore in first person, use tracked Touch controllers and fight with views made for VR: a tabletop miniature, a battle panel you place yourself and your arts list on your hand.
+**Same world. A new perspective.** A fan-made VR mod for Trails of Cold Steel on Steam. Explore with tracked hands and weapons, fight from three viewpoints, cast Arts with character poses, and bring the ARCUS and battle menus onto your palm.
 
-> **ALPHA - read this first.** Early alpha. Exploration, dialogue and battles work, with visual glitches and rough movement. Save often.
+> **1.0 - official release.** The official 1.0 feature set. First-person battle remains experimental; known visual and performance issues are listed below. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
 **Quick start**
 
-- ALPHA: first-person exploration and battles made for VR (a tabletop miniature, a battle panel you place yourself), with bugs and rough edges.
-- Requires the Steam game (PC v1.6, English), Virtual Desktop and the x86 Visual C++ runtime.
-- Install: extract the ZIP beside `ed8.exe`. SenPatcher is included.
-- Play: connect Virtual Desktop, launch from Steam and load a save. VR starts in the field or battle.
-- Controls: left stick to move; A/B to confirm/back. Hold the right Meta button to recenter.
+- 1.0: stereo exploration, tracked hands and weapons, tabletop battles and experimental first-person combat.
+- Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
+- Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe.`
+- Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
 
 [Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) - [Gameplay showcase](https://youtu.be/E8FdEB3rqRY) - [Support on Ko-fi](https://ko-fi.com/petonexus)
 
 ## What works today
 
-- **Tabletop battles.** Watch the fight as a miniature board in front of you. Tilt it, turn it, and the attack, magic and enemy-charge effects turn to face you. Pick it in the VR settings, under Battle view.
-- **A battle panel that is yours.** Grab the battle panel with the trigger and drag it where you want, change its distance and size, and make it follow your head or park it in space. Your choices are saved.
-- **Arts and crafts on your hand.** Choose Wrist only in VR settings for the command wheel, target selection and Arts/Crafts list on your left palm in first-person, third-person or miniature battle. Point at a list row with your dominant hand and pull the trigger. Item placement still has a known problem.
-- **First-person exploration.** Stereo VR with head tracking, free movement and smooth or step turning. Look down to see your body.
-- **Hands and weapons.** Rean and the other school leaders up to chapter 3 have their own body, tracked hands and weapon. Swing your arm to attack.
-- **Battles in VR.** The original battle camera with head tracking, enemy HP and status icons floating on the enemies, and controllers that vibrate with the game. First-person battle is there too, as an experiment (VR settings, Battle view).
-- **Menus, dialogue and scenes.** Dialogue and shops show on a floating panel. The pause menu opens small on your left wrist when you look at it, or large in front of you, with the world moving behind it. Story scenes play on a 16:9 screen.
-- **VR settings menu.** Click the right stick in the field to change turning, cameras, world size and panel positions. Choices are saved.
-- **Field map and HUD.** Left trigger opens the field map. Hold the right trigger for Quick Navigation, or X for the field HUD.
+- **First-person exploration.** Explore Thors, Trista and the field in stereo VR with head tracking, leaning, a visible body, tracked hands and fingers, and smooth or step turning.
+- **Hands and weapons.** Hold the right grip to draw your leader's weapon. School leaders through chapter 3 have their own hands and weapons, including Fie's two weapons. A swing can trigger an attack; this is not collision-based combat.
+- **Three ways to battle.** Use the original third-person camera, a tabletop miniature, or experimental first-person battle. The game keeps its turn-based rules; switch the view in VR settings or in the Touch launcher options.
+- **Tabletop battles.** Turn and tilt the miniature with the right stick. Optional Enemy HP in miniature shows the selected enemy's HP below its feet; it starts off and can be toggled in VR settings.
+- **ARCUS and Arts on your palm.** Put the command wheel, targets and Arts/Crafts lists on your left palm with Wrist only. Choose with the stick and A. A character pose can confirm a selected Art, with a visual guide and haptic feedback; A remains available.
+- **Experimental first-person combat.** Walk while choosing an Attack target, select with the stick and confirm with A. Rean and Jusis can also confirm with a grip-held swing. The target HP bar follows the enemy you look at or attack.
+- **Adjustable battle panels.** Move the gold-framed panel, change its distance and size, and park it or let it follow your head. Brightness and opacity are available in settings.ini. Choices survive updates.
+- **Menus, dialogue and story.** Read dialogue and shops on a floating panel. Put the camp menu on your wrist, in front or following your gaze. Equipment, Orbment, Item, Link and Swap remain usable; story scenes and results use an in-headset screen.
+- **Map, interaction and comfort.** Raise your left wrist to see the minimap, use the field map and Quick Navigation, and find talkable NPCs through a small gold marker. Saved immersion profiles, turning, scale and camera options live in the VR menu.
+- **Player launcher and gamepad.** Choose Touch or a native gamepad, the x64 presenter (on by default), the PC eye mirror and an FPS preset before playing. Touch also offers immersion and battle-view choices. Gamepad uses third-person views and has no Touch gestures or VR menu.
+- **Recording and optional OFXR.** Show a smoothed left-eye view in the PC window for recording. OFXR Bridge is an optional external tool: the launcher reports its status, while you configure OFXR and Virtual Desktop separately. It is not bundled.
 
 ## Downloads
 
-Download **tocs-vr-0.1.0-alpha.7-b90e4acc.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Prepared package: **tocs-vr-1.0.0-b0cfc281-player-8fdfb6d6.zip**. Check [Releases](https://github.com/petonexus/tocs-vr-releases/releases) for publication; this guide is a draft.
 
-SHA-256: `226309acd335d4e0229c2f705dfa3d63002a85059456665921e06d2929ce1e7f`
+SHA-256: `c759169a416162b2d650b73545627c62d24ebaf6f73a0573e4d683b2d1b25b7d`
 
-**New in 0.1.0-alpha.7**
+**New in 1.0.0**
 
-- First-person battle: point at the target with your dominant hand and pull the trigger to confirm a normal Attack. Arts and Crafts keep their own selection controls.
-- Arts and Crafts: the pointer shows a beam outside the list and a ring on the row you aim at. The stick takes over when you move it; B cancels while the trigger is held.
-- First-person battle: the right stick turns your view with the existing menu and action controls preserved.
-- Wrist-only commands move out of view during attacks and return when you raise your palm. Your saved panel and camera choices are kept.
-- Rean's forearm keeps its shape and joins the elbow and wrist more consistently in the checked first-person poses.
-- The body in the world stays normal in the checked Order and Orbment screens. The separate Equipment preview still needs work.
+- Official 1.0: stereo exploration, tracked hands and weapons, and third-person, miniature and experimental first-person battles.
+- Palm ARCUS, Arts by character pose, wrist lists, adjustable gold panels, wrist minimap and talk markers.
+- Battle fixes for Item, cancelled Arts/Crafts, target crystals and the command wheel; animated walking while choosing an Attack.
+- Optional enemy HP in the miniature, off by default. Saved comfort profiles, camera and panel settings.
+- Cold Steel launcher with Touch/gamepad, x64 by default, FPS presets and a smoothed PC eye mirror. OFXR stays a separate download.
+- One ZIP with the launcher and x64 components; updates preserve player settings. Known issues and the 1.1 roadmap are listed below.
 
 ## Requirements
 
@@ -53,17 +54,21 @@ SHA-256: `226309acd335d4e0229c2f705dfa3d63002a85059456665921e06d2929ce1e7f`
 1. Close the game and open the folder that contains `ed8.exe` (Steam: right-click the game > Manage > Browse local files).
 2. Extract everything from the ZIP into that folder, keeping its folders. Say yes to replacing `DINPUT8.dll` (SenPatcher is included; back up yours if you may want it back).
 
-To update, extract the new ZIP over the old files. Your saves are never touched.
+Updates replace `vr\settings.ini.default`, not settings.ini or saves.
 
 **Verify a download.** Compare the SHA-256 of the ZIP (Get-FileHash <zip> in PowerShell) with the one on the release page.
 
 ## First launch and how to play
 
-1. Connect Virtual Desktop and start the game from Steam. Load a save with the keyboard or mouse: the title screen is flat, and a gamepad does not work with the mod yet.
-2. VR starts by itself at the first field or battle. From then on, use the Touch controllers.
+1. Connect Virtual Desktop and keep Steam open. Start `tocs-vr\TocsVrPlayer.exe`; x64 is selected by default. Use keyboard or mouse to load a save from the flat title screen.
+2. VR starts in the field or battle. Steam direct uses the classic presenter.
 
-- Look straight ahead when VR starts. Hold the Meta button on the right controller to recenter at any time.
-- Take breaks. If smooth turning bothers you, pick step turning in the VR settings menu.
+- Look ahead at startup; hold the right Meta button to recenter. For step turning, open VR settings.
+- Gamepad: choose Game controller in the launcher; L3+R3 recenters. Third person only, no Touch gestures or VR menu. Choose Touch controllers to return.
+- Touch profiles and battle view become available after the first VR run. Show the left eye enables the recording mirror.
+- OFXR is optional and not bundled: https://github.com/tig3rmast3r/OFXR-Bridge. Start it first, keep x64 selected and turn Virtual Desktop SSW off.
+- FPS presets: Recommended = game 60, VD 120 Hz, optional OFXR 2x; Battery saver = 45, VD 90 Hz, OFXR 2x; Less powerful PC = 30, VD 90 Hz, OFXR 3x (ghosting). Set VD and OFXR yourself. The launcher backs up settings.xml; these are targets, not guaranteed FPS.
+- Panel appearance: copy vr\settings.ini.default to vr\settings.ini only if absent. Under [Video], panel_brightness is 50-150 and panel_opacity 40-100; both default to 100.
 
 ## Controls
 
@@ -85,7 +90,7 @@ Right hand is the dominant hand. Controls marked experimental are not confirmed 
 | **X (hold, left)** | Show the field HUD. |
 | **Y (click, left)** | Switch the field leader. |
 | **Right stick (click)** | VR settings menu. Left stick changes values, A selects, B closes. |
-| **Right hand (menu open)** | Point and pull the trigger. Battle Arts/Crafts use Wrist only in VR settings in all three battle views. *(experimental)* |
+| **Right hand (menu open)** | Point and pull the trigger. *(experimental)* |
 
 #### Battle
 
@@ -113,20 +118,17 @@ Right hand is the dominant hand. Controls marked experimental are not confirmed 
 |---|---|
 | **Meta button (right controller, hold)** | Recenter where you are looking. VR also recenters at the start and after a battle. |
 
-Other buttons do nothing in this alpha.
+Use the VR menu for camera and panel options. Gamepad uses the game's native controls.
 
-## Known issues in this alpha
+## Known issues
 
-- **Enemy Analysis and Item placement need fixes.** Enemy details can show only the background in the headset, without the model, HP or attributes. Item can stay on the right panel with Wrist only selected. The wrist checks cover wheel, targets and Arts/Crafts.
-- **First-person and miniature battle views are new.** Rean's forearm passed three poses; other actors and outfits need checks. The Arts beam can start above the hand. Miniature bars and damage face the active character. Grip Attack: Rean/Jusis checked; weapons: Fie/Machias checked. Gaius can lack a weapon; Elliot/Laura weapons can stay still.
-- **The pause menu is new.** Your character in the world stays normal in Order and Orbment. Equipment's separate preview still needs work. Choose wrist, gaze-following or fixed-front placement in VR settings.
-- **Title screen and Load menu are flat.** VR starts at the first field or battle. Until then, use the keyboard or mouse.
-- **Tested at 3440x1440 and 1920x1080.** At 1920x1080, characters look less sharp unless they are close. The latest battle changes were checked at 3440x1440; their 1920x1080 coverage remains partial.
-- **Tremor while walking and turning.** Walking can show tremor or flicker, and your hands can shake while you turn. Smoothing comes first in V1.1.
-- **Battle visual glitches.** A stray CP/EP gauge after some turn bonuses, abrupt S-Craft camera cuts and clipped light halos after pausing.
-- **The game may close by itself.** This has happened after long sessions. Save often.
-- **Not done yet.** Some outfits hide the hands or body. No seated mode, hand swap, sword trail or positional audio. Mini-games and fishing are not adapted, and cutscenes play on a flat 16:9 panel.
-- **Some settings need a restart.** The third-person camera and world size change at the next game start.
+- **Brief panel flashes.** New battle panels or lists can flash in both eyes for about two frames. A 1.1 fix is planned.
+- **Uneven motion.** Some scenes show walking or turning judder, hand shake or FPS drops, especially with frame generation. 1.1 targets measured performance and pacing improvements.
+- **Enemy Analysis and light halos.** Enemy Analysis can omit details; some light halos can be clipped after pausing. Both remain in the 1.1 backlog.
+- **First-person battle is experimental.** Swing confirms a selected Attack, not physical damage. Weapon-specific gestures are unfinished. Miniature native damage labels can face the actor. Fie's Art pose has one calibration sample.
+- **Gamepad uses third person.** No miniature, Touch gestures or VR menu. Visual panel settings are read at startup. Gamepad miniature support and a fuller launcher settings page are planned for 1.1.
+- **Flat screens and tested setup.** Title, loading menus, story scenes and results use a screen. Tested on Quest 3 / Virtual Desktop at 3440x1440; the newest changes have no fresh 1920x1080 check.
+- **Future features.** No seated mode, hand swap, positional audio or native 90 FPS. Later leaders, outfits and minigames need more work. Some camera and world-size settings need a restart.
 
 ## If something goes wrong
 
@@ -136,16 +138,16 @@ Other buttons do nothing in this alpha.
 
 ## Roadmap
 
-*Plans, not promises. No dates, and the order can change with feedback.*
+*Planned priorities, not delivery dates. Fixes can ship separately as 1.0.x updates.*
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **V1 - this alpha** (Now) | Explore, talk, fight | Stereo exploration and battles; Bodies, tracked hands and weapons for the school leaders; Dialogue, menus and scenes on panels; In-VR settings menu |
-| **V1.1 - fixes after launch** (Next) | Smoother and clearer | Less tremor while walking, steadier hands while turning; Fixes from feedback and a controls reference in VR |
-| **V2 - comfort, battle and presence** (Planned) | Make it yours | Seated mode, hand swap and a regular gamepad; Fie and the later party members as field leader; Battle polish: Item, S-Craft and results in 3D; Sword trail, mini-games and positional audio |
-| **V3 - installer** (Later) | One-click install | A proper installer with backups (the ZIP stays available) |
+| **1.0 - official launch** (Now) | Explore, talk and fight in VR | Stereo exploration; three battle views; tracked hands and weapons; Palm ARCUS, Arts poses, menus and player launcher |
+| **1.0.x - maintenance** (Next) | Fix release regressions | Startup, compatibility and gameplay fixes from reproducible reports |
+| **1.1 - polish and expansion** (Planned) | Smoother motion and clearer controls | Frame pacing, render cost, panel flashes and enemy UI; Gamepad miniature, launcher settings, weapon gestures and panel themes |
+| **Later - comfort and coverage** (Later) | Broader ways to play | Seated and left-handed play, later leaders, scenes and minigames; Positional audio and an installer with backups |
 
-If support allows, Trails of Cold Steel II, III and IV come after this mod. *(Roadmap reviewed 2026-10-12.)*
+Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-10-28.)*
 
 ## Uninstall
 
