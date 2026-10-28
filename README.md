@@ -30,9 +30,9 @@
 
 ## Downloads
 
-Prepared package: **tocs-vr-1.0.0-b0cfc281-player-8fdfb6d6.zip**. Check [Releases](https://github.com/petonexus/tocs-vr-releases/releases) for publication; this guide is a draft.
+Prepared package: **tocs-vr-1.0.0-70b49eb4-player-34464235.zip**. Check [Releases](https://github.com/petonexus/tocs-vr-releases/releases) for publication; this guide is a draft.
 
-SHA-256: `c759169a416162b2d650b73545627c62d24ebaf6f73a0573e4d683b2d1b25b7d`
+SHA-256: `96955e35ad5912a315b233668296a505861c53e959b1d8cc8ea433421b6fa9fe`
 
 **New in 1.0.0**
 
@@ -40,7 +40,7 @@ SHA-256: `c759169a416162b2d650b73545627c62d24ebaf6f73a0573e4d683b2d1b25b7d`
 - Palm ARCUS, Arts by character pose, wrist lists, adjustable gold panels, wrist minimap and talk markers.
 - Battle fixes for Item, cancelled Arts/Crafts, target crystals and the command wheel; animated walking while choosing an Attack.
 - Optional enemy HP in the miniature, off by default. Saved comfort profiles, camera and panel settings.
-- Cold Steel launcher with Touch/gamepad, x64 by default, FPS presets and a smoothed PC eye mirror. OFXR stays a separate download.
+- Cold Steel launcher with Touch/gamepad, x64 by default, FPS presets and a smoothed PC eye mirror. Updated stereo rendering; game 60 FPS, VD 120 Hz and optional OFXR 2x were tested together. OFXR is a separate download.
 - One ZIP with the launcher and x64 components; updates preserve player settings. Known issues and the 1.1 roadmap are listed below.
 
 ## Requirements
