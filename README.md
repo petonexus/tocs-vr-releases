@@ -30,15 +30,15 @@
 
 ## Downloads
 
-Prepared package: **tocs-vr-1.0.0-70b49eb4-player-377fd2f3.zip**. Check [Releases](https://github.com/petonexus/tocs-vr-releases/releases) for publication; this guide is a draft.
+Download **tocs-vr-1.0.0-d68b4512-player-db88cc7e.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
 
-SHA-256: `b3c65acb9467641d4cec1b90a9c16268bb994c25761b545d748de6df115295f0`
+SHA-256: `7cc8e7d607b24de0d0b68f7452c74daaaacce06bab5edba8c460f6997571b7b6`
 
 **New in 1.0.0**
 
 - Official 1.0: stereo exploration, tracked hands and weapons, and third-person, miniature and experimental first-person battles.
 - Palm ARCUS, Arts by character pose, wrist lists, adjustable gold panels, wrist minimap and talk markers.
-- Battle fixes for Item, cancelled Arts/Crafts, target crystals and the command wheel; animated walking while choosing an Attack.
+- Battle fixes for Item, cancelled Arts/Crafts, target crystals and the command wheel; animated walking while choosing an Attack. Added late and lightly tested, so please report what you see: the enemy Analysis window on a flat screen, enemy status icons beside the HP bar, and game controller choice and orbit in the miniature battle.
 - Optional enemy HP in the miniature, off by default. Saved comfort, camera and panel settings, with a launcher VR settings page, explanations and Save without starting.
 - Cold Steel launcher with Touch/gamepad, x64 by default, FPS presets and a smoothed PC eye mirror. Updated stereo rendering; game 60 FPS, VD 120 Hz and optional OFXR 2x were tested together. OFXR is a separate download.
 - One ZIP with the launcher and x64 components; updates preserve player settings. Known issues and the 1.1 roadmap are listed below.
@@ -122,13 +122,14 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 ## Known issues
 
-- **Brief panel flashes.** New battle panels or lists can flash in both eyes for about two frames. A 1.1 fix is planned.
+- **Brief panel flashes.** New battle panels or lists can flash in both eyes for about two frames. A fix is planned.
 - **Uneven motion.** Some scenes show walking or turning judder, hand shake or FPS drops, especially with frame generation. 1.1 targets measured performance and pacing improvements.
-- **Enemy Analysis and light halos.** Enemy Analysis can omit details; some light halos can be clipped after pausing. Both remain in the 1.1 backlog.
+- **Enemy Analysis and light halos.** Enemy Analysis now shows on a flat screen, but it was checked on one route only (first person, View Specifics); other ways to open it and the miniature view may still omit details. Some light halos can be clipped after pausing. The halos are on the backlog.
 - **First-person battle is experimental.** Swing confirms a selected Attack, not physical damage. Weapon-specific gestures are unfinished. Miniature native damage labels can face the actor. Fie's Art pose has one calibration sample.
-- **Gamepad uses third person.** No miniature, Touch gestures or VR menu. Visual panel settings are read at startup. Gamepad miniature support is planned for 1.1. The launcher VR settings page currently requires Touch.
+- **Keep the default outfits.** We recommend keeping the characters' default outfits. Some other outfits and costumes may not show correctly in VR, and not every scene and outfit could be tested. If one looks wrong, please report the outfit and the scene.
+- **Gamepad uses third person.** No Touch gestures or VR menu. Visual panel settings are read at startup. Choosing a target and orbiting the miniature battle with the game controller is new and has not been tried with a physical controller. The launcher VR settings page currently requires Touch.
 - **Flat screens and tested setup.** Title, loading menus, story scenes and results use a screen. Tested on Quest 3 / Virtual Desktop at 3440x1440; the newest changes have no fresh 1920x1080 check.
-- **Future features.** No seated mode, hand swap, positional audio or native 90 FPS. Later leaders, outfits and minigames need more work. Some camera and world-size settings need a restart.
+- **Future features.** No seated mode, hand swap, positional audio or native 90 FPS. Later leaders and minigames need more work. Some camera and world-size settings need a restart.
 
 ## If something goes wrong
 
@@ -144,10 +145,10 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 |---|---|---|
 | **1.0 - official launch** (Now) | Explore, talk and fight in VR | Stereo exploration; three battle views; tracked hands and weapons; Palm ARCUS, Arts poses, menus and player launcher |
 | **1.0.x - maintenance** (Next) | Fix release regressions | Startup, compatibility and gameplay fixes from reproducible reports |
-| **1.1 - polish and expansion** (Planned) | Smoother motion and clearer controls | Frame pacing, render cost, panel flashes and enemy UI; Gamepad miniature, weapon gestures and panel themes |
-| **Later - comfort and coverage** (Later) | Broader ways to play | Seated and left-handed play, later leaders, scenes and minigames; Positional audio and an installer with backups |
+| **1.1 - first-person battle and scenes** (Planned) | Fight and watch the story from your own eyes | Natural walking and your own body in first-person battle; Weapon attack gestures; First-person story scenes; Better performance and visuals |
+| **Later - comfort and coverage** (Later) | Broader ways to play | Seated and left-handed play, more leaders, minigames, panel themes; Positional audio and an installer with backups |
 
-Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-10-28.)*
+Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-10-29.)*
 
 ## Uninstall
 
