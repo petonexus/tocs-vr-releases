@@ -25,21 +25,21 @@
 - **Adjustable battle panels.** Move the gold-framed panel, change its distance and size, and park it or let it follow your head. Brightness and opacity are available in settings.ini. Choices survive updates.
 - **Menus, dialogue and story.** Read dialogue and shops on a floating panel. Put the camp menu on your wrist, in front or following your gaze. Equipment, Orbment, Item, Link and Swap remain usable; story scenes and results use an in-headset screen.
 - **Map, interaction and comfort.** Raise your left wrist to see the minimap, use the field map and Quick Navigation, and find talkable NPCs through a small gold marker. Saved immersion profiles, turning, scale and camera options live in the VR menu.
-- **Player launcher and gamepad.** Choose Touch or a native gamepad, the x64 presenter (on by default), the PC eye mirror and an FPS preset before playing. Touch also offers immersion and battle-view choices. Gamepad uses third-person views and has no Touch gestures or VR menu.
+- **Player launcher and gamepad.** Choose Touch or a native gamepad, the x64 presenter (on by default), the PC eye mirror and an FPS preset before playing. Touch also offers immersion, battle view and a VR settings page with explanations and Save without starting the game. Gamepad uses third-person views and has no Touch gestures or VR menu.
 - **Recording and optional OFXR.** Show a smoothed left-eye view in the PC window for recording. OFXR Bridge is an optional external tool: the launcher reports its status, while you configure OFXR and Virtual Desktop separately. It is not bundled.
 
 ## Downloads
 
-Prepared package: **tocs-vr-1.0.0-70b49eb4-player-34464235.zip**. Check [Releases](https://github.com/petonexus/tocs-vr-releases/releases) for publication; this guide is a draft.
+Prepared package: **tocs-vr-1.0.0-70b49eb4-player-377fd2f3.zip**. Check [Releases](https://github.com/petonexus/tocs-vr-releases/releases) for publication; this guide is a draft.
 
-SHA-256: `96955e35ad5912a315b233668296a505861c53e959b1d8cc8ea433421b6fa9fe`
+SHA-256: `b3c65acb9467641d4cec1b90a9c16268bb994c25761b545d748de6df115295f0`
 
 **New in 1.0.0**
 
 - Official 1.0: stereo exploration, tracked hands and weapons, and third-person, miniature and experimental first-person battles.
 - Palm ARCUS, Arts by character pose, wrist lists, adjustable gold panels, wrist minimap and talk markers.
 - Battle fixes for Item, cancelled Arts/Crafts, target crystals and the command wheel; animated walking while choosing an Attack.
-- Optional enemy HP in the miniature, off by default. Saved comfort profiles, camera and panel settings.
+- Optional enemy HP in the miniature, off by default. Saved comfort, camera and panel settings, with a launcher VR settings page, explanations and Save without starting.
 - Cold Steel launcher with Touch/gamepad, x64 by default, FPS presets and a smoothed PC eye mirror. Updated stereo rendering; game 60 FPS, VD 120 Hz and optional OFXR 2x were tested together. OFXR is a separate download.
 - One ZIP with the launcher and x64 components; updates preserve player settings. Known issues and the 1.1 roadmap are listed below.
 
@@ -65,7 +65,7 @@ Updates replace `vr\settings.ini.default`, not settings.ini or saves.
 
 - Look ahead at startup; hold the right Meta button to recenter. For step turning, open VR settings.
 - Gamepad: choose Game controller in the launcher; L3+R3 recenters. Third person only, no Touch gestures or VR menu. Choose Touch controllers to return.
-- Touch profiles and battle view become available after the first VR run. Show the left eye enables the recording mirror.
+- Touch: after the first VR run, use VR settings for camera, comfort and panel adjustments with help. Save keeps the launcher open.
 - OFXR is optional and not bundled: https://github.com/tig3rmast3r/OFXR-Bridge. Start it first, keep x64 selected and turn Virtual Desktop SSW off.
 - FPS presets: Recommended = game 60, VD 120 Hz, optional OFXR 2x; Battery saver = 45, VD 90 Hz, OFXR 2x; Less powerful PC = 30, VD 90 Hz, OFXR 3x (ghosting). Set VD and OFXR yourself. The launcher backs up settings.xml; these are targets, not guaranteed FPS.
 - Panel appearance: copy vr\settings.ini.default to vr\settings.ini only if absent. Under [Video], panel_brightness is 50-150 and panel_opacity 40-100; both default to 100.
@@ -126,7 +126,7 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 - **Uneven motion.** Some scenes show walking or turning judder, hand shake or FPS drops, especially with frame generation. 1.1 targets measured performance and pacing improvements.
 - **Enemy Analysis and light halos.** Enemy Analysis can omit details; some light halos can be clipped after pausing. Both remain in the 1.1 backlog.
 - **First-person battle is experimental.** Swing confirms a selected Attack, not physical damage. Weapon-specific gestures are unfinished. Miniature native damage labels can face the actor. Fie's Art pose has one calibration sample.
-- **Gamepad uses third person.** No miniature, Touch gestures or VR menu. Visual panel settings are read at startup. Gamepad miniature support and a fuller launcher settings page are planned for 1.1.
+- **Gamepad uses third person.** No miniature, Touch gestures or VR menu. Visual panel settings are read at startup. Gamepad miniature support is planned for 1.1. The launcher VR settings page currently requires Touch.
 - **Flat screens and tested setup.** Title, loading menus, story scenes and results use a screen. Tested on Quest 3 / Virtual Desktop at 3440x1440; the newest changes have no fresh 1920x1080 check.
 - **Future features.** No seated mode, hand swap, positional audio or native 90 FPS. Later leaders, outfits and minigames need more work. Some camera and world-size settings need a restart.
 
@@ -144,7 +144,7 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 |---|---|---|
 | **1.0 - official launch** (Now) | Explore, talk and fight in VR | Stereo exploration; three battle views; tracked hands and weapons; Palm ARCUS, Arts poses, menus and player launcher |
 | **1.0.x - maintenance** (Next) | Fix release regressions | Startup, compatibility and gameplay fixes from reproducible reports |
-| **1.1 - polish and expansion** (Planned) | Smoother motion and clearer controls | Frame pacing, render cost, panel flashes and enemy UI; Gamepad miniature, launcher settings, weapon gestures and panel themes |
+| **1.1 - polish and expansion** (Planned) | Smoother motion and clearer controls | Frame pacing, render cost, panel flashes and enemy UI; Gamepad miniature, weapon gestures and panel themes |
 | **Later - comfort and coverage** (Later) | Broader ways to play | Seated and left-handed play, later leaders, scenes and minigames; Positional audio and an installer with backups |
 
 Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-10-28.)*
