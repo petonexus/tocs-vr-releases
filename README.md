@@ -12,7 +12,7 @@
 - Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe.`
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
 
-[Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) - [Gameplay showcase](https://youtu.be/E8FdEB3rqRY) - [Support on Ko-fi](https://ko-fi.com/petonexus)
+[Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) - [Launch video](https://youtu.be/BCXjr3M0slI) - [Support on Ko-fi](https://ko-fi.com/petonexus)
 
 ## What works today
 
@@ -167,7 +167,7 @@ To attach a log, close the game, open `config\defaults.json` and change "debug_l
 
 ## Videos
 
-[Watch the pre-alpha gameplay showcase](https://youtu.be/E8FdEB3rqRY): exploration, battles, Blade and the opening of the game.
+[Watch the 1.0 launch video](https://youtu.be/BCXjr3M0slI).
 
 ## Support Development
 
