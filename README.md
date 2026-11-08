@@ -2,12 +2,12 @@
 
 **Same world. A new perspective.** Free VR mod for Trails of Cold Steel: tracked hands, battles and palm menus.
 
-> **1.2 - official release.** 1.2 adds Alisa's bow, smoother edges and new menus. DLSS, first-person combat and features awaiting broader checks are experimental. Save often.
+> **1.3.2 - official release.** 1.3.2 adds DLSS image choices, four frame combinations and battle results in a window. DLSS, first-person combat and features awaiting broader checks are experimental. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
 **Quick start**
 
-- 1.2 adds Alisa's bow, smoother edges and new menus. DLSS and first-person combat are experimental.
+- 1.3.2 adds DLSS image choices, four frame combinations and battle results in a window. DLSS and first-person combat are experimental.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
 - Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe.`
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
@@ -21,29 +21,29 @@
 - **Alisa's exploration bow.** Hold the left grip for the bow. Close the right grip near it, pull back until the second haptic cue and release the right grip to shoot. Release the left grip to cancel. The native arrow follows horizontal aim; the first bow draw can trigger one preparation attack. Gaius can attack with a forward lance thrust.
 - **Three ways to battle.** Use the original third-person camera, a tabletop miniature, or experimental first-person battle. The game keeps its turn-based rules; switch the view in VR settings or in the Touch launcher options.
 - **Tabletop battles.** Turn and tilt the miniature with the right stick, or turn and scale the table with both hands. Enemy HP in miniature shows the selected enemy's HP below its feet in place of the game's own enemy gauges and markers; it starts on and can be turned off in VR settings.
-- **ARCUS and Arts on your palm.** Put the command wheel, targets and Arts/Crafts lists on your left palm with Wrist only. Choose with the stick and A. A character pose can confirm a selected Art, with a visual guide and haptic feedback; A remains available. Battle results show on your palm too.
+- **ARCUS and Arts on your palm.** Put the command wheel, targets and Arts/Crafts lists on your left palm with Wrist only. Choose with the stick and A. A character pose can confirm a selected Art, with a visual guide and haptic feedback; A remains available. Battle results open in a window by default and can show in 3D on your wrist.
 - **Experimental first-person combat.** See your whole body and walk with the game's own steps while choosing an Attack target; select with the stick or point your open hand at an enemy, and confirm with A. Rean and Jusis can also confirm with a grip-held swing, and Emma, Fie and Gaius with a strike of their own weapon type. The target HP bar follows the enemy you look at or attack.
 - **Adjustable battle panels.** Move the gold-framed panel, change its distance and size, and park it or let it follow your head. Brightness and opacity are available in settings.ini. Choices survive updates.
 - **Menus, dialogue and story.** Read dialogue and shops on a floating panel. Put the camp menu on your wrist, in front or following your gaze. Equipment, Orbment, Item, Link and Swap remain usable; in first-person play, story scenes play through the game's camera in 3D (the default), Rean's eyes (ultra-immersive, experimental) or an in-headset screen (VR menu, Scenes); third person and the gamepad mode use the screen.
 - **Map, interaction and comfort.** Raise your left wrist to see the minimap, use the field map and Quick Navigation, and find talkable NPCs through a small gold marker. Saved immersion profiles, turning, scale and camera options live in the VR menu.
-- **Player launcher and gamepad.** Choose Touch or a native gamepad, the x64 presenter (on by default), the PC eye mirror and an FPS preset before playing. Touch also offers immersion, battle view and a VR settings page with explanations and Save without starting the game. Gamepad uses third-person views and has no Touch gestures or VR menu. VR settings now use four themed tabs with large cards and icons; the new in-headset layout is experimental.
+- **Player launcher and gamepad.** Choose Touch or a native gamepad, the x64 presenter (on by default), the PC eye mirror and a frame combination (60 or 30, with DLSS or OFXR) before playing. Touch also offers immersion, battle view and a VR settings page with explanations and Save without starting the game. Gamepad uses third-person views and has no Touch gestures or VR menu. VR settings now use four themed tabs with large cards and icons; the new in-headset layout is experimental.
 - **Recording and optional OFXR.** Show a smoothed left-eye view in the PC window for recording. OFXR Bridge is an optional external tool: the launcher reports its status, while you configure OFXR and Virtual Desktop separately. It is not bundled.
-- **Experimental DLSS.** Choose Sharper picture in the launcher for optional NVIDIA DLSS, off by default. Requires the x64 presenter and a compatible NVIDIA GPU. The latest test improved clarity and removed the observed black flashes, but character trails and occasional world smearing remain. DLSS with OFXR has not passed final validation.
+- **Image and DLSS.** Choose Quality (default, world at 100%), Performance (77%) or Ultra performance (67%). DLSS requires the x64 presenter and a compatible NVIDIA GPU; failed initialization keeps the normal image. Performance and Ultra require NVIDIA RTX; without it, a saved choice uses Quality until you save another choice. DLSS in battle is on by default and can be turned off separately: battles use the normal image at the chosen size, while exploration and scenes keep DLSS. DLSS remains experimental; trails may appear. DLSS and OFXR are never combined.
 
 ## Downloads
 
-Download **tocs-vr-1.2.0.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Download **tocs-vr-1.3.2.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
 
-SHA-256: `47fc4edf2623bd9114278c67a300105801fc31a662ec0f89e0022d13b9036a5a`
+SHA-256: `9d965511f1f9dd66d0f27df33098a930ae91a10e84dc7827dbfd5c0a3304a4df`
 
-**New in 1.2.0**
+**New in 1.3.2**
 
-- Includes the 1.1 advances: full-body first-person battle (experimental), native walking, open-hand target selection and weapon-specific strikes, including Gaius's thrust.
-- Story scenes use the game's 3D camera by default; Scenes offers a flat comfort view or experimental Rean's eyes. Battle results stay in 3D with pages on the left palm.
-- Miniature battles support two-hand turn/scale and smaller enemy HP bars, on by default. Smoother edges, steadier hand/panel layers, corrected water, turn percentage and fewer flashing lists/repeated frames.
-- Alisa's bow: left-hand hold and horizontal aim, native arrow in the right hand, right-grip draw/release, and distinct nock/draw/cancel haptics.
-- Redesigned launcher and four VR settings tabs with cards, icons, explanations and Save. The new in-headset layout and hand-ray interaction are experimental.
-- Optional experimental DLSS, Off by default, includes the NVIDIA runtime and latest history/timing fixes. Trails and world smearing remain; DLSS + external OFXR can be unstable. No FPS gain is promised.
+- Includes the 1.3.1 advances: five processor savings and a higher game-thread priority keep busy towns and large monsters closer to 60 FPS; a steadier first-person view with less judder when walking sideways or turning; and DLSS that keeps menus and text sharp, with steadier hands and weapon.
+- Launcher image choices: Quality (default, world at 100%), Performance (77%) and Ultra performance (67%). Performance and Ultra require NVIDIA RTX. The legacy Sharper picture choice becomes Quality.
+- Four frame combinations: 60 or 30 frames per second, each with DLSS or with OFXR.
+- Battle results open in a window by default; 3D on the wrist is an option in the VR menu and the launcher. The ARCUS lid in battle uses its original resolution.
+- DLSS in battle is on by default and can be turned off separately. Battles then use the normal image at the chosen size; exploration and scenes keep DLSS.
+- DLSS now works at any Virtual Desktop quality; after changing that quality it comes back on the next launch. The VR settings footer shows whether DLSS is on, with the chosen size, or why it is off.
 
 ## Requirements
 
@@ -67,9 +67,9 @@ Updates replace `vr\settings.ini.default`, not settings.ini or saves.
 
 - Look ahead at startup. Hold right Meta to recenter; VR settings offers step turning.
 - Game controller: third person, L3+R3 recenter; no Touch gestures or VR menu.
-- DLSS: experimental, Off by default. Sharper picture needs x64 and a compatible NVIDIA GPU; failed initialization keeps the normal image. No DLAA.
-- Optional external OFXR: https://github.com/tig3rmast3r/OFXR-Bridge. Start it first; use x64 and turn VD SSW off. DLSS + OFXR remains experimental, including normal 2x with Hybrid OFF.
-- FPS targets: Recommended 60 / VD 120 Hz / optional OFXR 2x; Battery saver 45 / 90 Hz / 2x; Less powerful PC 30 / 90 Hz / 3x (ghosting). Set VD/OFXR yourself. The launcher backs up settings.xml.
+- DLSS: Quality (default) draws the world at 100%; Performance at 77%; Ultra performance at 67%. The last two need NVIDIA RTX. DLSS in battle is on by default and can be turned off separately.
+- Optional external OFXR: https://github.com/tig3rmast3r/OFXR-Bridge. Start it first; use x64 and turn VD SSW off. DLSS and OFXR are never combined.
+- Four combinations: 60 + DLSS (recommended) or 60 + OFXR 2x at VD 120 Hz; 30 + DLSS or 30 + OFXR 3x (ghosting) at VD 90 Hz. Set VD/OFXR yourself: Start refuses a row that does not match OFXR. The launcher backs up settings.xml.
 - Panel appearance: copy vr\settings.ini.default to vr\settings.ini only if absent. Under [Video], panel_brightness is 50-150 and panel_opacity 40-100; both default to 100.
 
 ## Controls
@@ -125,14 +125,14 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 ## Known issues
 
-- **DLSS and DLSS with OFXR are experimental.** Camera turns/sideways steps can leave trails and world smearing. The last DLSS-only test removed black flashes; DLSS+OFXR remains unvalidated after unstable earlier tests. Disable DLSS if uncomfortable.
+- **DLSS is experimental.** Camera turns/sideways steps can leave trails and world smearing. The last DLSS-only test removed black flashes. DLSS is never combined with OFXR; choose an OFXR row if DLSS is uncomfortable.
 - **Experimental coverage.** New VR menu/ray, F2 capture, gamepad target/orbit and other Analysis routes await broader checks, as do enemy icons, later characters and scenes.
 - **Uneven motion.** Walking/turning judder, hand shake and FPS drops remain, especially with frame generation. Performance work continues.
 - **Enemy Analysis and light halos.** Analysis was checked only in first person via View Specifics; other routes and miniature view may omit details. Some light halos can be clipped after pausing.
 - **First-person battle is experimental.** Swing confirms Attack, not physical damage. Strikes lack full character coverage; Fie's Art has one calibration. With miniature HP off, game labels can face the actor.
 - **Keep the default outfits.** Use default outfits. Other costumes may show incorrectly; report the outfit and scene if affected.
 - **Gamepad uses third person.** No Touch gestures or VR menu. Panel settings apply at startup; target/orbit awaits a physical-controller check. Launcher VR settings needs Touch.
-- **Flat screens and tested setup.** Title/loading are flat; results use 3D and wrist pages. Scenes options apply with first-person Touch; other modes use a screen. Tested: Quest 3 / VD, 3440x1440; no fresh 1920x1080 check.
+- **Flat screens and tested setup.** Title/loading are flat; battle results open in a window by default, and 3D on the wrist is optional. Scenes options apply with first-person Touch; other modes use a screen. Tested: Quest 3 / VD, 3440x1440; no fresh 1920x1080 check.
 - **Future features.** No seated mode, hand swap, positional audio or native 90 FPS. Later leaders and minigames need more work. Some camera and world-size settings need a restart.
 
 ## If something goes wrong
@@ -143,16 +143,16 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 ## Roadmap
 
-*Planned priorities, not delivery dates. Fixes can ship separately as 1.2.x updates.*
+*Planned priorities, not delivery dates. Fixes can ship separately as 1.3.x updates.*
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **1.2 - first-person battle and scenes** (Now) | Fight and watch the story from your own eyes | Experimental first-person battle, 3D scenes/results, Alisa bow, smoother edges, new menus and optional DLSS |
-| **1.2.x - maintenance** (Next) | Fix release regressions | Startup, compatibility and gameplay fixes from reproducible reports |
-| **Next - performance and image** (Planned) | Polish what 1.2 left open | Reduce DLSS trails/OFXR instability; broader headset checks; investigate pacing, foveated DLSS and rendering cost |
+| **1.3 - smoother and sharper** (Now) | Steadier frames and a sharper picture | DLSS image choices, four frame combinations, lower mod cost per frame, a steadier first-person view and battle results in a window |
+| **1.3.x - maintenance** (Next) | Fix release regressions | Startup, compatibility and gameplay fixes from reproducible reports |
+| **Next - performance and image** (Planned) | Polish what 1.3 left open | Reduce DLSS trails/OFXR instability; broader headset checks; investigate pacing, foveated DLSS and rendering cost |
 | **Later - comfort and coverage** (Later) | Broader ways to play | Seated/left-handed play, more leaders/minigames, panel themes, positional audio and an installer |
 
-Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-11-03.)*
+Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-11-08.)*
 
 ## Uninstall
 
