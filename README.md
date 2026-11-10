@@ -2,14 +2,14 @@
 
 **Same world. A new perspective.** Free VR mod for Trails of Cold Steel: tracked hands, battles and palm menus.
 
-> **1.3.2 - official release.** 1.3.2 adds DLSS image choices, four frame combinations and battle results in a window. DLSS, first-person combat and features awaiting broader checks are experimental. Save often.
+> **1.3.4 - official release.** Clearer HUD, smoother hand outlines and refined battle controls. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
 **Quick start**
 
-- 1.3.2 adds DLSS image choices, four frame combinations and battle results in a window. DLSS and first-person combat are experimental.
+- 1.3.4: clearer HUD, smoother hand outlines and refined battle controls. DLSS and first-person combat are experimental.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
-- Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe.`
+- Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe`.
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
 
 [Website](https://www.trailsvr.pro) - [Releases](https://github.com/petonexus/tocs-vr-releases/releases) - [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) - [Launch video](https://youtu.be/BCXjr3M0slI) - [Support on Ko-fi](https://ko-fi.com/petonexus)
@@ -21,29 +21,28 @@
 - **Alisa's exploration bow.** Hold the left grip for the bow. Close the right grip near it, pull back until the second haptic cue and release the right grip to shoot. Release the left grip to cancel. The native arrow follows horizontal aim; the first bow draw can trigger one preparation attack. Gaius can attack with a forward lance thrust.
 - **Three ways to battle.** Use the original third-person camera, a tabletop miniature, or experimental first-person battle. The game keeps its turn-based rules; switch the view in VR settings or in the Touch launcher options.
 - **Tabletop battles.** Turn and tilt the miniature with the right stick, or turn and scale the table with both hands. Enemy HP in miniature shows the selected enemy's HP below its feet in place of the game's own enemy gauges and markers; it starts on and can be turned off in VR settings.
-- **ARCUS and Arts on your palm.** Put the command wheel, targets and Arts/Crafts lists on your left palm with Wrist only. Choose with the stick and A. A character pose can confirm a selected Art, with a visual guide and haptic feedback; A remains available. Battle results open in a window by default and can show in 3D on your wrist.
-- **Experimental first-person combat.** See your whole body and walk with the game's own steps while choosing an Attack target; select with the stick or point your open hand at an enemy, and confirm with A. Rean and Jusis can also confirm with a grip-held swing, and Emma, Fie and Gaius with a strike of their own weapon type. The target HP bar follows the enemy you look at or attack.
+- **ARCUS and Arts on your palm.** Put the command wheel, targets and Arts/Crafts lists on your left palm with Wrist only. Choose with the stick and A. A character pose can confirm a selected Art, with glowing hand-target rings and haptic feedback; A remains available. Battle results open in a window by default and can show in 3D on your wrist.
+- **Experimental first-person combat.** See your whole body and walk while choosing an Attack target; use the stick or an open hand, then A. Rean and Jusis use a wide grip-held stroke; Laura cuts, Elliot thrusts or swings, Emma cuts or thrusts, Fie cuts and Gaius thrusts. Alisa draws and releases her bow. Items and quick confirmations keep the first-person view; short hints explain battle controls. The target HP bar follows the enemy.
 - **Adjustable battle panels.** Move the gold-framed panel, change its distance and size, and park it or let it follow your head. Brightness and opacity are available in settings.ini. Choices survive updates.
 - **Menus, dialogue and story.** Read dialogue and shops on a floating panel. Put the camp menu on your wrist, in front or following your gaze. Equipment, Orbment, Item, Link and Swap remain usable; in first-person play, story scenes play through the game's camera in 3D (the default), Rean's eyes (ultra-immersive, experimental) or an in-headset screen (VR menu, Scenes); third person and the gamepad mode use the screen.
 - **Map, interaction and comfort.** Raise your left wrist to see the minimap, use the field map and Quick Navigation, and find talkable NPCs through a small gold marker. Saved immersion profiles, turning, scale and camera options live in the VR menu.
 - **Player launcher and gamepad.** Choose Touch or a native gamepad, the x64 presenter (on by default), the PC eye mirror and a frame combination (60 or 30, with DLSS or OFXR) before playing. Touch also offers immersion, battle view and a VR settings page with explanations and Save without starting the game. Gamepad uses third-person views and has no Touch gestures or VR menu. VR settings now use four themed tabs with large cards and icons; the new in-headset layout is experimental.
-- **Recording and optional OFXR.** Show a smoothed left-eye view in the PC window for recording. OFXR Bridge is an optional external tool: the launcher reports its status, while you configure OFXR and Virtual Desktop separately. It is not bundled.
+- **Recording and optional OFXR.** Show a smoothed, stitched view of both headset eyes, including hands and interface, in the PC window for recording. OFXR Bridge is an optional external tool: the launcher reports its status, while you configure OFXR and Virtual Desktop separately. It is not bundled.
 - **Image and DLSS.** Choose Quality (default, world at 100%), Performance (77%) or Ultra performance (67%). DLSS requires the x64 presenter and a compatible NVIDIA GPU; failed initialization keeps the normal image. Performance and Ultra require NVIDIA RTX; without it, a saved choice uses Quality until you save another choice. DLSS in battle is on by default and can be turned off separately: battles use the normal image at the chosen size, while exploration and scenes keep DLSS. DLSS remains experimental; trails may appear. DLSS and OFXR are never combined.
 
 ## Downloads
 
-Download **tocs-vr-1.3.2.zip** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases).
+Download [**tocs-vr-1.3.4.zip**](https://github.com/petonexus/tocs-vr-releases/releases/download/v1.3.4/tocs-vr-1.3.4.zip) from [release 1.3.4](https://github.com/petonexus/tocs-vr-releases/releases/tag/v1.3.4).
 
-SHA-256: `9d965511f1f9dd66d0f27df33098a930ae91a10e84dc7827dbfd5c0a3304a4df`
+SHA-256: `2b64c91fd8c7d2dd853c21ab013a135f039d05e568d09e473d79a15df9d22ee2`
 
-**New in 1.3.2**
+**New in 1.3.4**
 
-- Includes the 1.3.1 advances: five processor savings and a higher game-thread priority keep busy towns and large monsters closer to 60 FPS; a steadier first-person view with less judder when walking sideways or turning; and DLSS that keeps menus and text sharp, with steadier hands and weapon.
-- Launcher image choices: Quality (default, world at 100%), Performance (77%) and Ultra performance (67%). Performance and Ultra require NVIDIA RTX. The legacy Sharper picture choice becomes Quality.
-- Four frame combinations: 60 or 30 frames per second, each with DLSS or with OFXR.
-- Battle results open in a window by default; 3D on the wrist is an option in the VR menu and the launcher. The ARCUS lid in battle uses its original resolution.
-- DLSS in battle is on by default and can be turned off separately. Battles then use the normal image at the chosen size; exploration and scenes keep DLSS.
-- DLSS now works at any Virtual Desktop quality; after changing that quality it comes back on the next launch. The VR settings footer shows whether DLSS is on, with the chosen size, or why it is off.
+- Brighter field HUD, dialogue and menu windows, plus smoother hand outlines. The gold battle-panel theme keeps its existing appearance.
+- Less repeated rendering work in battle and repeated headset frames; cached shader information at map changes. Loading behavior is unchanged.
+- First-person battle keeps items and quick Attacks in first person. Rean/Jusis use wide forward, side or down strokes; Laura cuts, Elliot thrusts or swings, and Alisa draws and releases her bow.
+- Small glowing rings guide Art hand poses, short hints explain battle controls, and the VR menu pointer can change values in either direction.
+- The PC mirror records a stitched view of both headset eyes, including hands, HUD and battle panel.
 
 ## Requirements
 
@@ -85,15 +84,15 @@ Right hand leads; Alisa's bow uses the left. Experimental = needs more checks.
 | **Right stick (left / right)** | Turn. |
 | **A** | Confirm, talk, interact, attack. Hold to show the weapon. |
 | **Right grip (hold)** | Hold the weapon; swing your arm to attack. |
-| **Alisa: left grip / right grip** | Hold left grip. Right grip near bow: nock, pull, release to fire. Left release cancels. Horizontal aim. |
+| **Alisa: left grip / right grip** | Left holds bow. Right grip near bow: nock, pull, release. Left release cancels. Horizontal aim. |
 | **B** | Cancel / back. Also closes the map. |
-| **Left menu button** | Pause (camp) menu. It opens on your left wrist when you look at your hand and in front of you when you look ahead. |
+| **Left menu button** | Pause (camp) menu on your wrist when looking at your hand, otherwise in front. |
 | **Left trigger** | Field map. |
 | **Right trigger (hold)** | Quick Navigation (fast travel) on a flat screen. |
 | **X (hold, left)** | Show the field HUD. |
 | **Y (click, left)** | Switch the field leader. |
 | **Right stick (click)** | VR settings menu. Left stick changes values, A selects, B closes. |
-| **Right hand (menu open)** | Point and pull the trigger. *(experimental)* |
+| **Right hand (menu open)** | Point; trigger changes a value on its left or right side. *(experimental)* |
 
 #### Battle
 
@@ -101,12 +100,15 @@ Right hand leads; Alisa's bow uses the left. Experimental = needs more checks.
 |---|---|
 | **Head** | Look around the battle and lean in. |
 | **Left stick** | Pick commands, targets and arts. |
+| **Stick click (target pick)** | First person. Center and click swaps walking and choosing a target. A confirms. *(experimental)* |
+| **Open hand (target pick)** | First person: aim at an enemy. Stick wins until the next selection. A confirms. *(experimental)* |
 | **A / B** | Confirm / cancel. |
 | **Left trigger (hold)** | S-Craft: hold, push the stick to the S-Craft, press A. |
 | **Right trigger** | Skip the battle animation. |
-| **Arm swing (target pick)** | First-person normal Attack, Rean/Jusis only: hold right grip, release left grip, then swing. *(experimental)* |
-| **Left grip (hold)** | Link panel: pick a partner with the stick, confirm with A. In a Link Attack, A = Assist. |
-| **Right grip (hold)** | Swap panel: pick with the stick, confirm with A. First-person Attack uses grip plus swing (above). |
+| **Arm swing (target pick)** | First-person Attack: hold right grip, left free. Rean/Jusis: wide forward, side or down stroke. Laura/Fie: cut. Elliot: thrust or swing. Emma: cut/thrust. Gaius: thrust. *(experimental)* |
+| **Alisa: bow (target pick)** | First-person Attack: hold left grip; grip near bow with right, pull, release right grip. Left release cancels; A also confirms. *(experimental)* |
+| **Left grip (hold)** | Link: stick selects, A confirms; A = Assist in Link Attack. Alisa uses this grip for her bow. |
+| **Right grip (hold)** | Swap: choose with stick, A confirms. First-person Attack: grip plus swing. |
 | **Y (click, left)** | Burst during a Link Attack. *(experimental)* |
 
 #### Menus, dialogue and results
@@ -125,11 +127,11 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 ## Known issues
 
-- **DLSS is experimental.** Camera turns/sideways steps can leave trails and world smearing. The last DLSS-only test removed black flashes. DLSS is never combined with OFXR; choose an OFXR row if DLSS is uncomfortable.
+- **DLSS is experimental.** Camera turns/sideways steps can leave trails and world smearing. Black flashes were not observed in the last DLSS-only test. DLSS is never combined with OFXR; choose an OFXR row if DLSS is uncomfortable.
 - **Experimental coverage.** New VR menu/ray, F2 capture, gamepad target/orbit and other Analysis routes await broader checks, as do enemy icons, later characters and scenes.
-- **Uneven motion.** Walking/turning judder, hand shake and FPS drops remain, especially with frame generation. Performance work continues.
-- **Enemy Analysis and light halos.** Analysis was checked only in first person via View Specifics; other routes and miniature view may omit details. Some light halos can be clipped after pausing.
-- **First-person battle is experimental.** Swing confirms Attack, not physical damage. Strikes lack full character coverage; Fie's Art has one calibration. With miniature HP off, game labels can face the actor.
+- **Uneven motion.** Walking/turning judder and FPS drops remain, especially with frame generation. Performance work continues.
+- **Enemy Analysis.** Analysis was checked only in first person via View Specifics; other routes and miniature view may omit details.
+- **First-person battle is experimental.** Swing confirms Attack, not physical damage. Strikes lack full character coverage. With miniature HP off, game labels can face the actor.
 - **Keep the default outfits.** Use default outfits. Other costumes may show incorrectly; report the outfit and scene if affected.
 - **Gamepad uses third person.** No Touch gestures or VR menu. Panel settings apply at startup; target/orbit awaits a physical-controller check. Launcher VR settings needs Touch.
 - **Flat screens and tested setup.** Title/loading are flat; battle results open in a window by default, and 3D on the wrist is optional. Scenes options apply with first-person Touch; other modes use a screen. Tested: Quest 3 / VD, 3440x1440; no fresh 1920x1080 check.
@@ -152,7 +154,7 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 | **Next - performance and image** (Planned) | Polish what 1.3 left open | Reduce DLSS trails/OFXR instability; broader headset checks; investigate pacing, foveated DLSS and rendering cost |
 | **Later - comfort and coverage** (Later) | Broader ways to play | Seated/left-handed play, more leaders/minigames, panel themes, positional audio and an installer |
 
-Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-11-08.)*
+Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-11-10.)*
 
 ## Uninstall
 
