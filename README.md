@@ -144,7 +144,7 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 - **Keep the default outfits.** Use default outfits. Other costumes may show incorrectly; report the outfit and scene if affected.
 - **Gamepad uses third person.** No Touch gestures, VR menu or mod HP bars; results show in front. Panel settings apply at startup; target/orbit awaits a physical-controller check. Launcher VR settings needs Touch.
 - **Flat screens and tested setup.** Title/loading are flat; results open on the wrist (default) or a window. Scene options need first-person Touch. Tested: Quest 3 / VD, 3440x1440; no fresh 1920x1080 check.
-- **Future features.** No hand swap, positional audio or native 90 FPS. Later leaders and minigames need more work. Some camera and world-size settings need a restart.
+- **Not in the mod.** No hand swap, positional audio or native 90 FPS. Leaders after chapter 3 have no VR weapon and minigames are not adapted for VR. Some camera and world-size settings need a restart.
 
 </details>
 
@@ -162,16 +162,15 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 <details>
 <summary><b>Roadmap</b></summary>
 
-*Priorities, not delivery dates. Fixes can ship separately as 1.6.x updates.*
+*Priorities, not delivery dates.*
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **1.6 - smoothness and battle polish** (Now) | Smoother motion and a readable battle | Character frame generation, smooth turns, steadier hands, HP bars, wrist results |
-| **1.6.1 - maintenance** (Next) | Check and finish what 1.6 shipped | Headset checks of the 1.6 changes, smoother turns in game-camera scenes |
-| **Next - performance and image** (Planned) | Polish what 1.6 left open | Switch views without a restart, gamepad on the title screen, fewer DLSS trails, rendering cost |
-| **Later - comfort and coverage** (Later) | Broader ways to play | Left-handed play, more leaders/minigames, panel themes, positional audio and an installer |
+| **1.6 - current version** (Now) | Smoother motion and a readable battle | Character frame generation, smooth turns, steadier hands, HP bars, wrist results |
+| **1.6.x - fixes and maintenance** (Next) | Keep what exists working well | Fixes for reported problems and small, targeted improvements to existing features |
+| **Trails of Cold Steel II in VR** (Planned) | The next game | Bringing the VR mod to Trails of Cold Steel II |
 
-Cold Steel II, III and IV are longer-term possibilities, depending on support. *(Roadmap reviewed 2026-11-15.)*
+Player requests can be added to the list. *(Roadmap reviewed 2026-11-15.)*
 
 </details>
 
