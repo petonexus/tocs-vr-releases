@@ -2,14 +2,14 @@
 
 **Same world. A new perspective.** Free VR mod for Trails of Cold Steel: tracked hands, battles and palm menus.
 
-> **1.6.1 - official release.** Improved miniature controls, sword gestures and victory pages. Save often.
+> **1.6.2 - official release.** Scene turbo on the right trigger and a higher third-person battle start. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
-**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.1.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
+**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.2.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
 
 **Quick start**
 
-- 1.6.1 improves miniature grips and sword attacks. Victory opens in a window.
+- 1.6.2: hold the right trigger to speed up scenes. Third-person battles start higher.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
 - Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe`.
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
@@ -28,19 +28,17 @@
 
 ## Download
 
-**[Download tocs-vr-1.6.1.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.1.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
+**[Download tocs-vr-1.6.2.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.2.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
 
-<sub>SHA-256: `1f7189865b9073eb4da4d12275005c60e92ff45b64d3ed4ad91dfdf494d72670`</sub>
+<sub>SHA-256: `2b0efaa142d8a268fd620be3628be596ad61ddb8057ea8016234efcab0f42221`</sub>
 
 <details>
-<summary><b>New in 1.6.1</b></summary>
+<summary><b>New in 1.6.2</b></summary>
 
-- Two grips together grab the miniature. Separate presses trigger Link or Swap. The board keeps its angle when you return.
-- Rean and Jusis attack with a sword stroke. Moving your body with the sword held no longer counts as a swing.
-- Victory opens in a window in every battle view. A pause in first-person input no longer triggers a third-person turn.
-- Start in first person with Touch to switch exploration views in the VR menu. DLSS follows the switch to third person.
-- Walking skips redundant checks. Repeated frames can reuse eye images. The VR presenter gets higher GPU priority in first-person Touch play.
-- Choose English, Brazilian Portuguese or Spanish in the launcher. It reuses file checks. The VR menu labels save and restore confirmations.
+- Hold the right trigger in a scene or conversation to speed it up with the game's own turbo. Release it to return to normal speed.
+- Pick the turbo speed (2x, 3x or 4x) in the launcher's Scene turbo row. It turns on the game's Turbo Mode, so with a gamepad R2 is the game's turbo.
+- In third-person battle, the first moment of a battle no longer starts from the floor looking up at the party.
+- Internal cleanup and a rebuilt VR presenter, with no visible change.
 
 </details>
 
@@ -93,6 +91,7 @@ Right hand leads; Alisa's bow uses the left. 🧪 = *(experimental)*, needs more
 | <kbd>Left menu button</kbd> | Pause (camp) menu on your wrist when looking at your hand, otherwise in front. |
 | <kbd>Left trigger</kbd> | Field map. |
 | <kbd>Right trigger</kbd> <sub>hold</sub> | Quick Navigation (fast travel) on a flat screen. |
+| <kbd>Right trigger</kbd> <sub>hold, in a scene</sub> | Speed up the scene with the game's turbo (Scene turbo in the launcher). |
 | <kbd>X</kbd> <sub>hold, left</sub> | Show the field HUD. |
 | <kbd>Y</kbd> <sub>click, left</sub> | Switch the field leader. |
 | <kbd>Right stick</kbd> <sub>click</sub> | VR settings menu. Left stick changes values, A selects, B closes. |
@@ -166,11 +165,11 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **1.6.1 - current version** (Now) | Exploration and battle refinements | Live exploration view switching, miniature and sword controls, victory in a window and three launcher languages |
+| **1.6.2 - current version** (Now) | Scene turbo and a higher battle start | Hold the right trigger to speed up scenes, and third-person battles no longer start from the floor |
 | **1.6.x - fixes and maintenance** (Next) | Keep what exists working well | Fixes for reported problems and small, targeted improvements to existing features |
 | **Trails of Cold Steel II in VR** (Planned) | The next game | Bringing the VR mod to Trails of Cold Steel II |
 
-Player requests can be added to the list. *(Roadmap reviewed 2026-11-19.)*
+Player requests can be added to the list. *(Roadmap reviewed 2026-11-20.)*
 
 </details>
 
