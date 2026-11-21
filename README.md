@@ -132,18 +132,17 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 ## Known issues
 
 <details>
-<summary><b>Show all 10</b></summary>
+<summary><b>Show all 9</b></summary>
 
-- **DLSS is experimental.** Fast motion can leave trails. DLSS with OFXR frame generation does not hold 120 Hz in heavy scenes, so the launcher keeps them mutually exclusive; choose an OFXR row if DLSS is uncomfortable.
-- **Experimental coverage.** Hand ray, F2 capture, gamepad target/orbit, other Analysis routes, enemy icons and later characters/scenes need broader checks.
-- **Reprojection limits.** Needs DLSS, first person. Some UI markers and effects can shimmer in a strafe; the VR menu sways in smooth turns; turns in game-camera scenes are not yet as smooth as in the field.
-- **Headset checks pending.** Headset checks remain for the full package, frame generation, camera return, seated play, holstering and battle steps.
-- **Enemy Analysis.** Analysis was checked only in first person via View Specifics; other routes and miniature view may omit details.
-- **First-person battle is experimental.** Swing confirms Attack, not physical damage. Strikes lack full character coverage. With miniature HP off, game labels can face the actor.
-- **Keep the default outfits.** Use default outfits. Other costumes may show incorrectly; report the outfit and scene if affected.
-- **Gamepad uses third person.** No Touch gestures, VR menu or mod HP bars; results show in front. Panel settings apply at startup; target/orbit awaits a physical-controller check. Launcher VR settings needs Touch.
-- **Flat screens and tested setup.** Title/loading are flat; results open in a window. Scene options need first-person Touch. Tested: Quest 3 / VD, 3440x1440; no fresh 1920x1080 check.
-- **Not in the mod.** No hand swap, positional audio or native 90 FPS. Leaders after chapter 3 have no VR weapon and minigames are not adapted for VR. Some camera and world-size settings need a restart.
+- **DLSS is experimental.** Fast movement can leave faint trails. DLSS never runs with OFXR, the optional external frame tool: together they miss 120 Hz in busy scenes. If DLSS bothers you, pick an OFXR frame mode.
+- **Smooth walking and turning.** Stick smoothing needs DLSS and first person. Some markers can flicker when you walk sideways, the VR menu sways in smooth turns, and turns in game-camera story scenes are less smooth.
+- **Less tested.** Little testing so far: the hand pointer, F2 problem capture, gamepad in the miniature, enemy status icons, the mod's character frame generation, real steps in battle, the full package and later chapters.
+- **Enemy Analysis.** Checked only in first-person battle via View Specifics. Other ways to open it, and the miniature, may leave out details.
+- **First-person battle is experimental.** A swing chooses Attack; the blade does not hit physically. In the miniature with the mod's HP bars off, the game's own enemy labels may tilt away from you.
+- **Keep the default outfits.** Other outfits may show the body or hands wrongly; report the outfit and scene.
+- **Gamepad uses third person.** No hand gestures, VR menu or mod HP bars; panel settings apply at game start. Launcher VR settings need Touch controllers.
+- **Flat screens, restarts and tested setup.** Title and loading screens are flat; battle results open in a window. Scene options need first person with Touch. Some camera and world-size settings need a restart. Tested: Meta Quest 3, Virtual Desktop, 3440x1440 monitor; 1920x1080 not rechecked.
+- **Not in the mod.** No left-handed mode, positional audio or native 90 FPS. Characters who join after chapter 3 have no VR weapon; minigames are not adapted for VR.
 
 </details>
 
