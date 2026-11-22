@@ -2,14 +2,14 @@
 
 **Same world. A new perspective.** Free VR mod for Trails of Cold Steel: tracked hands, battles and palm menus.
 
-> **1.6.2 - official release.** Scene turbo on the right trigger and a higher third-person battle start. Save often.
+> **1.6.3 - official release.** Smooth at 90 or 120 Hz, damage numbers beside the HP bars and descriptions under the battle lists. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
-**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.2.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
+**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.3.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
 
 **Quick start**
 
-- 1.6.2: hold the right trigger to speed up scenes. Third-person battles start higher.
+- 1.6.3: smooth at 90 or 120 Hz, damage numbers beside the HP bars, descriptions under the battle lists.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
 - Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe`.
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
@@ -24,21 +24,22 @@
 - **Menus, dialogue and story.** Dialogue and shops on a floating panel; the camp menu on your wrist, in front or following your gaze. Move, resize or park the gold battle panel. In first person, story scenes play in 3D through the game camera (default), through Rean's eyes (ultra-immersive, experimental) or on a screen.
 - **Map and comfort.** Minimap on your left wrist, field map, Quick Navigation and a gold marker on talkable NPCs. The VR menu holds immersion profiles, turning, scale, seated mode, eye height, arm reach and settings save/restore.
 - **Launcher and gamepad.** Choose English, Brazilian Portuguese or Spanish. Pick Touch or gamepad, the x64 presenter (default), the PC eye mirror and a frame mode (60 or 30, with DLSS or OFXR), and (with Touch) edit VR settings without starting the game. Gamepad plays in third person, without gestures or the VR menu. The redesigned in-headset VR menu is experimental.
-- **Image, DLSS and recording.** DLSS Quality (default, 100%), Performance (77%) or Ultra performance (67%); DLSS needs the x64 presenter and a compatible NVIDIA GPU, the last two need RTX. In first person it adds depth reprojection for stick movement and turns, character frame generation at 120 Hz and foveated reconstruction; it can be turned off for battles. DLSS is experimental (trails may appear) and never combined with OFXR, an optional external tool that is not bundled. The PC window can show both eyes stitched for recording.
+- **Image, DLSS and recording.** DLSS Quality (default, 100%), Performance (77%) or Ultra performance (67%); DLSS needs the x64 presenter and a compatible NVIDIA GPU, the last two need RTX. In first person it adds depth reprojection for stick movement and turns, character frame generation at 90 or 120 Hz and foveated reconstruction; it can be turned off for battles. DLSS is experimental (trails may appear) and never combined with OFXR, an optional external tool that is not bundled. The PC window can show both eyes stitched for recording.
 
 ## Download
 
-**[Download tocs-vr-1.6.2.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.2.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
+**[Download tocs-vr-1.6.3.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.3.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
 
-<sub>SHA-256: `2b0efaa142d8a268fd620be3628be596ad61ddb8057ea8016234efcab0f42221`</sub>
+<sub>SHA-256: `1aab656ecdf4d1ebd9f9d83b788897100429b3deb380adc437c8f4030745553e`</sub>
 
 <details>
-<summary><b>New in 1.6.2</b></summary>
+<summary><b>New in 1.6.3</b></summary>
 
-- Hold the right trigger in a scene or conversation to speed it up with the game's own turbo. Release it to return to normal speed.
-- Pick the turbo speed (2x, 3x or 4x) in the launcher's Scene turbo row. It turns on the game's Turbo Mode, so with a gamepad R2 is the game's turbo.
-- In third-person battle, the first moment of a battle no longer starts from the floor looking up at the party.
-- Internal cleanup and a rebuilt VR presenter, with no visible change.
+- Virtual Desktop at 90 Hz now plays smoothly with DLSS: characters move in step with each frame. 120 Hz stays a little smoother; 90 Hz is lighter on the headset battery.
+- The mod's HP bars show the damage (red) or healing (green) beside them for 3 seconds.
+- In battle, the Arts, Crafts and Item lists in your hand show the selected entry's description on a plate below the list.
+- In menus and the battle ring, a light push of the left stick moves one step; holding it repeats at a steady pace.
+- Smoother icons in the VR settings menu and a new launcher icon.
 
 </details>
 
@@ -67,7 +68,7 @@
 
 - Look ahead at startup. Hold right Meta to recenter; VR settings offers step turning.
 - Game controller: third person, L3+R3 recenter; no Touch gestures or VR menu.
-- Frame modes: 60 + DLSS (recommended) or 60 + OFXR 2x with VD at 120 Hz; 30 + DLSS or 30 + OFXR 3x (ghosting) with VD at 90 Hz. Set VD and OFXR yourself; the launcher refuses a mode that does not match OFXR and backs up settings.xml.
+- Frame modes: 60 + DLSS (recommended) with VD at 90 or 120 Hz (120 is a little smoother), or 60 + OFXR 2x with VD at 120 Hz; 30 + DLSS or 30 + OFXR 3x (ghosting) with VD at 90 Hz. Set VD and OFXR yourself; the launcher refuses a mode that does not match OFXR and backs up settings.xml.
 - Optional OFXR (external): https://github.com/tig3rmast3r/OFXR-Bridge. Start it first, use x64 and turn VD SSW off.
 - Panel brightness and opacity: copy `vr\settings.ini.default` to `vr\settings.ini` if it is absent, then under [Video] set panel_brightness (50-150) and panel_opacity (40-100); both default to 100.
 
@@ -164,11 +165,11 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **1.6.2 - current version** (Now) | Scene turbo and a higher battle start | Hold the right trigger to speed up scenes, and third-person battles no longer start from the floor |
+| **1.6.3 - current version** (Now) | Smooth at 90 Hz, damage numbers and list descriptions | Virtual Desktop at 90 or 120 Hz, damage numbers beside the HP bars and descriptions under the battle lists |
 | **1.6.x - fixes and maintenance** (Next) | Keep what exists working well | Fixes for reported problems and small, targeted improvements to existing features |
 | **Trails of Cold Steel II in VR** (Planned) | The next game | Bringing the VR mod to Trails of Cold Steel II |
 
-Player requests can be added to the list. *(Roadmap reviewed 2026-11-20.)*
+Player requests can be added to the list. *(Roadmap reviewed 2026-11-22.)*
 
 </details>
 
