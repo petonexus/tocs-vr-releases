@@ -2,14 +2,14 @@
 
 **Same world. A new perspective.** Free VR mod for Trails of Cold Steel: tracked hands, battles and palm menus.
 
-> **1.6.4 - official release.** The partner choice stays in view, scene effects and S-Craft cut-ins show in place, and the grips switch notebook tabs. Save often.
+> **1.6.6 - official release.** Crow and the other guests show their own hands and body on their first-person battle turn. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
-**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.4.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
+**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.6.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
 
 **Quick start**
 
-- 1.6.4: the partner choice stays in view, scene effects and S-Craft cut-ins show in place, the grips switch notebook tabs.
+- 1.6.6: Crow and the other guests show their own hands and body on their first-person battle turn.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
 - Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe`.
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
@@ -28,17 +28,14 @@
 
 ## Download
 
-**[Download tocs-vr-1.6.4.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.4.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
+**[Download tocs-vr-1.6.6.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.6.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
 
-<sub>SHA-256: `f901d2fae66b8bf674abfb26ef2b38948c9ce0fcc09d3f7659b9eb4eac7142fa`</sub>
+<sub>SHA-256: `089bb74869e2e2cd8f944745dbf75e7a3f4cafbe2bfa5547353e99ffab73f9d0`</sub>
 
 <details>
-<summary><b>New in 1.6.4</b></summary>
+<summary><b>New in 1.6.6</b></summary>
 
-- In the practical exam, the screen where you choose your partner now stays in front of you the whole time it is open; before, it showed only while the game printed a line of text on it.
-- In scenes and conversations, effects such as a sweat drop stay on the character instead of appearing inside the dialogue panel.
-- During an S-Craft, the full-screen pictures and the attacker's cut-in fill your view, without the straight borders of a flat card.
-- In the notebook and in Quick Navigation, squeezing the grips switches tabs and map groups, as it already switches characters in the camp menu.
+- In a first-person battle, Crow and the other guests who join your party now show their own hands and body on their turn, like the Class VII students, and Crow's two guns sit in his hands while you hold the grip; before, only the game's own arm showed.
 
 </details>
 
@@ -164,7 +161,7 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **1.6.4 - current version** (Now) | Partner choice, scene effects, S-Craft cut-ins, notebook grips | The partner choice screen stays in view, scene effects and S-Craft cut-ins show in place, and the grips switch notebook tabs |
+| **1.6.6 - current version** (Now) | Guests with their own hands and body | Crow and the other guests show their own hands and body on their first-person battle turn |
 | **1.6.x - fixes and maintenance** (Next) | Keep what exists working well | Fixes for reported problems and small, targeted improvements to existing features |
 | **Trails of Cold Steel II in VR** (Planned) | The next game | Bringing the VR mod to Trails of Cold Steel II |
 
