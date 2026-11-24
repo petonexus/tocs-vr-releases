@@ -2,14 +2,14 @@
 
 **Same world. A new perspective.** Free VR mod for Trails of Cold Steel: tracked hands, battles and palm menus.
 
-> **1.6.6 - official release.** Crow and the other guests show their own hands and body on their first-person battle turn. Save often.
+> **1.6.7 - official release.** In a first-person battle, leaning back during the scene before it no longer pushes your view ahead of your character's head. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
-**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.6.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
+**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.7.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
 
 **Quick start**
 
-- 1.6.6: Crow and the other guests show their own hands and body on their first-person battle turn.
+- 1.6.7: in a first-person battle, leaning back during the scene before it no longer pushes your view ahead of your character's head.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
 - Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe`.
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
@@ -28,14 +28,19 @@
 
 ## Download
 
-**[Download tocs-vr-1.6.6.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.6.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
+**[Download tocs-vr-1.6.7.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.7.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
 
-<sub>SHA-256: `089bb74869e2e2cd8f944745dbf75e7a3f4cafbe2bfa5547353e99ffab73f9d0`</sub>
+<sub>SHA-256: `886c7d778b3d946ad8a48db97b74fbd23325bdab8be46da0a400168388325101`</sub>
 
 <details>
-<summary><b>New in 1.6.6</b></summary>
+<summary><b>New in 1.6.7</b></summary>
 
-- In a first-person battle, Crow and the other guests who join your party now show their own hands and body on their turn, like the Class VII students, and Crow's two guns sit in his hands while you hold the grip; before, only the game's own arm showed.
+- First-person battles after a cutscene now keep your recentered seated position if you leaned back during the scene, as in exploration.
+- In a first-person battle, allies revived with an item show their HP again and take their turns in first person. Before, their bars could keep showing KO for the rest of the fight and their turns came in third person.
+- Two turn-order indicators that could float in your VR view now appear on the battle panel.
+- The VR battle panel hides status icons and turn counts from above an ally when that ally's HP bar already shows them.
+- With DLSS on, demanding 3D cutscenes that use the game camera can render fewer pixels while keeping the full image in the headset.
+- DLSS now looks for its files inside the mod folder, so it can start on compatible PCs without access to a developer folder.
 
 </details>
 
@@ -161,7 +166,7 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **1.6.6 - current version** (Now) | Guests with their own hands and body | Crow and the other guests show their own hands and body on their first-person battle turn |
+| **1.6.7 - current version** (Now) | First-person battle view after a scene | In a first-person battle, leaning back during the scene before it no longer pushes your view ahead of your character's head |
 | **1.6.x - fixes and maintenance** (Next) | Keep what exists working well | Fixes for reported problems and small, targeted improvements to existing features |
 | **Trails of Cold Steel II in VR** (Planned) | The next game | Bringing the VR mod to Trails of Cold Steel II |
 
