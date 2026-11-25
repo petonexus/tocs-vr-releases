@@ -2,14 +2,14 @@
 
 **Same world. A new perspective.** Free VR mod for Trails of Cold Steel: tracked hands, battles and palm menus.
 
-> **1.6.8 - official release.** Battle tips show in the headset, the park battle floor is no longer black, and the first-person battle view stays out of big enemies. Save often.
+> **1.6.9 - official release.** VR starts sooner after a save loads, and on the Link attack prompt Y does Rush and X does Burst. Save often.
 > Tested on: Meta Quest 3 with Virtual Desktop; Windows 11, RTX 4080 SUPER.
 
-**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.8.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
+**[Download](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.9.zip)** · [Website](https://www.trailsvr.pro) · [Nexus Mods](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/6) · [Video](https://youtu.be/BCXjr3M0slI) · [Ko-fi](https://ko-fi.com/petonexus)
 
 **Quick start**
 
-- 1.6.8: battle tips show in the headset, the park battle floor is no longer black, and the first-person view stays out of big enemies.
+- 1.6.9: VR starts sooner after a save loads, and on the Link attack prompt Y does Rush and X does Burst.
 - Requires the Steam game (PC v1.6, English), Virtual Desktop and Visual C++ x86.
 - Extract the ZIP beside `ed8.exe`. Keep Steam open; start `tocs-vr\TocsVrPlayer.exe`.
 - Touch controls: left stick, A to confirm, B to go back. Hold the right Meta button to recenter.
@@ -28,16 +28,15 @@
 
 ## Download
 
-**[Download tocs-vr-1.6.8.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.8.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
+**[Download tocs-vr-1.6.9.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.9.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
 
-<sub>SHA-256: `99d7e785133d02e69e41d92a0557c13ea7241115025ff86121df8065441f7d3b`</sub>
+<sub>SHA-256: `70c22c6bae64e2c4f248866fcd840b502f1ef72431d6be0bcc14ee1571851e4e`</sub>
 
 <details>
-<summary><b>New in 1.6.8</b></summary>
+<summary><b>New in 1.6.9</b></summary>
 
-- In battles on the town park stage, the paved floor, the fence and the gazebo now show in both eyes; before, the floor could look black.
-- One-line story tips at the start of a battle, such as the Link tip in the park, now show on the flat screen in front of you until you confirm; before, nothing showed in the headset while the game waited for a button.
-- In a first-person battle, a party member standing right next to a big enemy no longer has the view inside the enemy's body; the view now starts just outside it.
+- VR now starts sooner after you load a save: the mod asks Virtual Desktop for the headset details while you are still on the title screen.
+- On the Link attack prompt in battle, the left controller's Y button now does Rush and X does Burst, matching the Xbox letters the game shows; elsewhere the buttons work as before.
 
 </details>
 
@@ -163,7 +162,7 @@ Use the VR menu for camera and panel options. Gamepad uses the game's native con
 
 | Stage | Theme | What it brings |
 |---|---|---|
-| **1.6.8 - current version** (Now) | Battle tips in the headset and the park battle floor | Story tips at the start of a battle show on the flat screen in front of you; The park battle floor no longer looks black, and the first-person view stays out of big enemies |
+| **1.6.9 - current version** (Now) | Faster VR start and Rush on the Link attack prompt | VR starts sooner after a save loads; On the Link attack prompt, Y does Rush and X does Burst on the left controller; Battle tips show in the headset, the park battle floor is no longer black, and the first-person view stays out of big enemies |
 | **1.6.x - fixes and maintenance** (Next) | Keep what exists working well | Fixes for reported problems and small, targeted improvements to existing features |
 | **Trails of Cold Steel II in VR** (Planned) | The next game | Bringing the VR mod to Trails of Cold Steel II |
 
