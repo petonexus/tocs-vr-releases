@@ -26,6 +26,10 @@
 - **Launcher and gamepad.** Choose English, Brazilian Portuguese or Spanish. Pick Touch or gamepad, the x64 presenter (default), the PC eye mirror and a frame mode (60 or 30, with DLSS or OFXR), and (with Touch) edit VR settings without starting the game. Gamepad plays in third person, without gestures or the VR menu. The redesigned in-headset VR menu is experimental.
 - **Image, DLSS and recording.** DLSS Quality (default, 100%), Performance (77%) or Ultra performance (67%); DLSS needs the x64 presenter and a compatible NVIDIA GPU, the last two need RTX. In first person it adds depth reprojection for stick movement and turns, character frame generation at 90 or 120 Hz and foveated reconstruction; it can be turned off for battles. DLSS is experimental (trails may appear) and never combined with OFXR, an optional external tool that is not bundled. The PC window can show both eyes stitched for recording.
 
+## Optional add-ons
+
+- **[Class VII HD](https://www.nexusmods.com/thelegendofheroestrailsofcoldsteel/mods/9).** Optional add-on on Nexus Mods: 2x textures and light proportion tweaks for the playable characters (regular and summer uniforms). One .p3a file for the game's mods folder; it works with or without VR.
+
 ## Download
 
 **[Download tocs-vr-1.6.9.zip](https://github.com/petonexus/tocs-vr-releases/releases/latest/download/tocs-vr-1.6.9.zip)** from the [latest release](https://github.com/petonexus/tocs-vr-releases/releases/latest).
